@@ -1,0 +1,243 @@
+/**
+ * Created by Sushant Gauchan
+ * Email : sushant.gauchan11@gmail.com
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.ex-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ex-flex-wrap {
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.ex-vertical {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ex-transition {
+  transition: all 0.6s ease;
+}
+
+.ex-transition-medium {
+  transition: all 1.2s ease;
+}
+
+.ex-transition-large {
+  transition: all 1.8s ease;
+}
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #000;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 77px;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 46px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.slick-slider .slick-slide {
+  outline: none;
+}
+
+.custom-container {
+  padding: 35px 200px;
+  max-width: 1920px;
+  margin: auto;
+}
+.custom-container.small-width-container {
+  max-width: 1200px;
+}
+.custom-container.full-width {
+  padding-left: 0;
+  padding-right: 0;
+}
+.custom-container.remove-top-padding {
+  padding-top: 0;
+}
+.custom-container.remove-bottom-padding {
+  padding-bottom: 0;
+}
+.custom-container.remove-top-bottom-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title .content {
+  display: inline-block;
+  max-width: 610px;
+  margin-top: 30px;
+}
+.section-title.type-invert {
+  color: #fff;
+}
+.section-title.type-left {
+  text-align: left;
+}
+.section-title h4 {
+  font-size: 22px;
+}
+
+button {
+  padding: 0;
+  background: transparent;
+  outline: 0;
+  border: 0;
+}
+
+.co-btn {
+  min-width: 220px;
+  display: inline-block;
+  width: auto;
+  outline: none;
+  border: 0;
+  padding: 22px 15px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1em;
+  color: #fff;
+  background-color: black;
+}
+.co-btn:hover, .co-btn:focus, .co-btn:active {
+  color: #fff;
+}
+.co-btn.type-bordered {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  transition: all 0.4s ease;
+}
+.co-btn.type-bordered:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.co-btn.type-invert.type-bordered {
+  border-color: #fff;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.co-btn.type-invert.type-bordered:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.4s ease;
+}
+
+.common-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  min-width: 125px;
+  text-align: center;
+  background-color: #238B28;
+  color: #fff;
+}
+.common-btn.wax-bg {
+  border-top: 2px solid #238B28;
+  background-color: #FBFBFB;
+  color: #238B28;
+}
+
+.read-more-btn {
+  text-align: right;
+}
+.read-more-btn button {
+  color: #238B28;
+  position: relative;
+}
+.read-more-btn button:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  background-color: #238B28;
+}/*# sourceMappingURL=global.css.map */
