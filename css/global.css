@@ -68,7 +68,12 @@ a:focus {
   outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
@@ -221,6 +226,9 @@ button {
   border-top: 2px solid #238B28;
   background-color: #FBFBFB;
   color: #238B28;
+}
+.common-btn.banner-btn {
+  padding: 11px 34px;
 }
 
 .read-more-btn {
