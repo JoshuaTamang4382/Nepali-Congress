@@ -34,7 +34,12 @@
 
 
 @media all and (max-width: 1800px) {
+
   /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 34px 150px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
@@ -60,7 +65,137 @@
   /*------------------------------------ Navigation Ends ------------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
-  #content-wrapper {}
+  #content-wrapper {
+    #home-page {
+      .button-section {
+        .button-wrapper {
+          ul {
+            li {
+              button {
+                padding: 15px 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper {}
+
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section {
+    .banner-slider {
+      .common-banner-item-wrapper {
+        .common-banner-item {
+          .text-container {
+            .inner {
+              .title {
+                h5 {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
+@media all and (max-width: 1600px) {
+
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 35px 70px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper {}
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper {
+    #home-page {
+      .savapati-sandesh-section {
+        .image-text-container {
+          .image-container {
+            img {
+              object-fit: cover;
+            }
+          }
+        }
+      }
+
+      .national-people-section {
+        .section-title {
+          margin-bottom: 45px;
+
+          h4 {
+            font-size: 20px;
+          }
+        }
+
+        .national-people-wrapper {
+          .nation-people-item {
+            .inner {
+              .image-container {
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+
+      .button-section {
+        .button-wrapper {
+          ul {
+            li {
+              button {
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 
@@ -75,7 +210,21 @@
       .common-banner-item-wrapper {
         .common-banner-item {
           .image-container {
-            // height: 550px;
+            img {
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-notice-container {
+    .common-detail {
+      .notice-wrapper {
+        .notice-item {
+          &:nth-of-type(3) {
+            display: none;
           }
         }
       }
@@ -100,7 +249,48 @@
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
-  #header-wrapper {}
+  // #header-wrapper {
+  //   .bottom-header-section {
+  //     .nav-container {
+  //       display: none;
+  //     }
+
+  //     .bottom-header-container {
+  //       .logo-nav-wrapper {
+  //         .mobile-nav-toggle {
+  //           display: block;
+
+  //           span {
+  //             display: block;
+  //             width: 20px;
+  //             height: 3px;
+  //             background-color: #fff;
+  //             -webkit-transition: all 0.5s ease-in-out;
+  //             transition: all 0.5s ease-in-out;
+
+  //             &:not(:last-of-type) {
+  //               margin-bottom: 5px;
+  //             }
+  //           }
+
+  //           &.openToggle {
+  //             span {
+  //               &:first-of-type {
+  //                 margin: 0;
+  //                 transform: translateY(1px) rotate(45deg);
+  //               }
+
+  //               &:last-of-type {
+  //                 transform: translateY(-2px) rotate(-45deg);
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 

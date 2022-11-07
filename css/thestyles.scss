@@ -219,6 +219,33 @@
 }
 
 /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+//*********FOR HAMBURGER MENU
+.nav-section {
+  position: fixed;
+  height: 100vh;
+  background-color: #00BC46;
+  top: 0;
+  left: -1000px;
+  z-index: 10;
+  overflow-x: hidden;
+  transition: all 0.6s ease;
+
+  .navigation {
+    padding: 250px 60px;
+
+    ul {
+      text-align: center;
+
+      li {
+        a {
+          font-size: 25px;
+          line-height: 2.5em;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
 
 
 /*----------------------------------- Navigation Starts -----------------------------------*/
@@ -361,7 +388,7 @@
     .press-bigapti-section {
       .press-bigapti-wrapper {
         display: flex;
-        margin: -50px;
+        margin: -30px;
 
         .press-bigapti-item {
           width: 50%;
@@ -538,10 +565,10 @@
     background: #00BC46;
 
     .custom-container {
-      padding: 112px 200px;
+      // padding: 112px 200px;
 
       .logo-container {
-        margin-bottom: 65px;
+        margin-block: 50px;
         // margin-top: 77px;
       }
 
@@ -573,7 +600,7 @@
             }
 
             .social-link-container {
-              margin-top: 32px;
+              margin-block: 32px;
 
               ul {
                 display: flex;
@@ -701,11 +728,11 @@
     padding: 50px;
 
     &:first-of-type {
-      width: 70%;
+      width: 65%;
     }
 
     &:last-of-type {
-      width: 30%;
+      width: 35%;
 
       .common-detail {
         background-color: transparent;
@@ -719,6 +746,8 @@
 
     .inner {
       .common-detail {
+        background-color: #FBFBFB;
+
         .upcoming-programs-item {
           padding: 27px;
         }
@@ -734,7 +763,7 @@
 
     .notice-wrapper {
       .notice-item {
-        margin-bottom: 24px;
+        margin-bottom: 15px;
         position: relative;
         padding-left: 30px;
 

@@ -37,39 +37,44 @@ function sliderInit() {
         slidesToScroll: 1,
     });
 
-/*    $('.product-gallery-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.product-gallery-nav'
-    });
-
-    $('.product-gallery-nav').slick({
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        asNavFor: '.product-gallery-slider',
-        dots: false,
-        arrows: false,
-        focusOnSelect: true,
-        responsive: [
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-        ]
-    });*/
+    /*    $('.product-gallery-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.product-gallery-nav'
+        });
+    
+        $('.product-gallery-nav').slick({
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            asNavFor: '.product-gallery-slider',
+            dots: false,
+            arrows: false,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+            ]
+        });*/
 
 }
-
+//*********FOR HAMBURGER MENU
 function navInit() {
+    $('.mobile-nav-toggle').click(function () {
+        $('body').toggleClass('open-nav');
+        $('.mobile-nav-toggle').toggleClass('openToggle');
+    });
+
     var scrollTop = 0;
-    jQuery(window).scroll(function(){
+    jQuery(window).scroll(function () {
         scrollTop = jQuery(window).scrollTop();
         jQuery('.counter').html(scrollTop);
         if (scrollTop >= 150) {
@@ -78,9 +83,29 @@ function navInit() {
             jQuery('#header-wrapper').removeClass('nav-scroll');
         }
     });
-/*    $('.has-submenu > a').click(function (e) {
-        event.preventDefault();
-    })*/
+    /*    $('.has-submenu > a').click(function (e) {
+              event.preventDefault();
+          })*/
+
+    /*$('.menu-item-has-children').click(function () {
+          $(this).parent('li').children('ul').addClass('open');
+      })*/
+}
+
+function navInit() {
+    var scrollTop = 0;
+    jQuery(window).scroll(function () {
+        scrollTop = jQuery(window).scrollTop();
+        jQuery('.counter').html(scrollTop);
+        if (scrollTop >= 150) {
+            jQuery('#header-wrapper').addClass('nav-scroll');
+        } else if (scrollTop < 150) {
+            jQuery('#header-wrapper').removeClass('nav-scroll');
+        }
+    });
+    /*    $('.has-submenu > a').click(function (e) {
+            event.preventDefault();
+        })*/
 
     /*$('.menu-item-has-children').click(function () {
         $(this).parent('li').children('ul').addClass('open');
@@ -109,7 +134,7 @@ function mcustomInit() {
     });*/
 }
 
-function smootScroll(){
+function smootScroll() {
     // hide #back-top first
     $("#common-back-top").hide();
 

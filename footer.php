@@ -48,14 +48,14 @@
                                 <li>
                                     <a href="">
                                         <span class="twitter">
-                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-twitter"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
                                         <span class="youtube">
-                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-tiktok"></i>
                                         </span>
                                     </a>
                                 </li>
@@ -153,4 +153,5 @@
 
 
 </body>
+
 </html>

@@ -56,6 +56,9 @@
 /*------------------------------------- Animation Ends ------------------------------------*/
 @media all and (max-width: 1800px) {
   /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 34px 150px;
+  }
   /*------------------------------------- Site Wide Ends ------------------------------------*/
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li:not(:last-of-type) {
@@ -65,10 +68,71 @@
   /*----------------------------------- Navigation Starts -----------------------------------*/
   /*------------------------------------ Navigation Ends ------------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .button-section .button-wrapper ul li button {
+    padding: 15px 30px;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .text-container .inner .title h5 {
+    font-size: 15px;
+  }
+  /*------------------------------------ Components Ends ------------------------------------*/
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+@media all and (max-width: 1600px) {
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  .custom-container {
+    padding: 35px 70px;
+  }
+  a {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .savapati-sandesh-section .image-text-container .image-container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #content-wrapper #home-page .national-people-section .section-title {
+    margin-bottom: 45px;
+  }
+  #content-wrapper #home-page .national-people-section .section-title h4 {
+    font-size: 20px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container {
+    width: 100px;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li button {
+    padding: 10px 20px;
+  }
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+  /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .image-container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .common-notice-container .common-detail .notice-wrapper .notice-item:nth-of-type(3) {
+    display: none;
+  }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*-------------------------------------- Modal Starts -------------------------------------*/
   /*--------------------------------------- Modal Ends --------------------------------------*/

@@ -7,17 +7,18 @@
 
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <!------------------------ Meta Starts ---------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="">
-    
-    <meta property="og:title" content=""/>
-    <meta property="og:type"   content="website" />
-    <meta property="og:url"    content="" />
-    <meta property="og:site_name" content=""/>
-    <meta property="og:image" content=""/>
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
     <meta property="og:image:alt" content="">
     <meta property="og:description" content="">
     <!------------------------- Meta Ends ----------------------->
@@ -57,133 +58,157 @@
 
 <body>
 
-<!------------------------------------- Wrapper Starts ------------------------------------->
-<div id="wrapper">
+    <!------------------------------------- Wrapper Starts ------------------------------------->
+    <div id="wrapper">
 
-    <!-------------------------------------- Modal Starts -------------------------------------->
-    <div id="theModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="flaticon-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="modal-loading-area">
-                        <div class="title">
-                            <h4>This is the title</h4>
-                        </div>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra nisl eget lacus mollis pulvinar. Mauris porttitor sem eu fermentum aliquet. In mattis fermentum malesuada. Maecenas tempor enim nec commodo eleifend. Nulla facilisi. Aenean ac placerat ante. Quisque laoreet neque sit amet enim iaculis, sed sollicitudin turpis rutrum. Donec ultricies ultrices erat vel viverra. Suspendisse tincidunt erat eu neque posuere, vel bibendum ipsum scelerisque.</p>
-                            <p>Sed eget arcu luctus, tristique velit ac, hendrerit urna. Aenean eget purus enim. Sed consequat mi at rhoncus commodo. Donec metus tortor, dignissim sit amet facilisis et, accumsan vitae mauris. Pellentesque consectetur at quam sed volutpat. Mauris faucibus, nisl lobortis consequat aliquam, quam est sodales erat, et tincidunt ligula metus in purus. Nulla posuere arcu in felis porttitor, vel maximus tellus feugiat. Proin imperdiet arcu vel urna feugiat, in elementum purus facilisis.</p>
-                            <p>Sed sapien sem, commodo eget nibh vel, euismod hendrerit neque. Quisque et augue eu nisl tristique bibendum. Maecenas euismod consequat ex sed congue. Donec convallis risus odio, nec lobortis sem fringilla ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla at augue eu nisi varius rhoncus. Donec quis facilisis mauris. Duis lobortis ultricies sapien, ut faucibus velit euismod quis. Suspendisse potenti. Suspendisse aliquam ipsum id leo fermentum, quis interdum mauris semper.</p>
+        <!-------------------------------------- Modal Starts -------------------------------------->
+        <div id="theModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="flaticon-close"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-loading-area">
+                            <div class="title">
+                                <h4>This is the title</h4>
+                            </div>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra nisl eget lacus mollis pulvinar. Mauris porttitor sem eu fermentum aliquet. In mattis fermentum malesuada. Maecenas tempor enim nec commodo eleifend. Nulla facilisi. Aenean ac placerat ante. Quisque laoreet neque sit amet enim iaculis, sed sollicitudin turpis rutrum. Donec ultricies ultrices erat vel viverra. Suspendisse tincidunt erat eu neque posuere, vel bibendum ipsum scelerisque.</p>
+                                <p>Sed eget arcu luctus, tristique velit ac, hendrerit urna. Aenean eget purus enim. Sed consequat mi at rhoncus commodo. Donec metus tortor, dignissim sit amet facilisis et, accumsan vitae mauris. Pellentesque consectetur at quam sed volutpat. Mauris faucibus, nisl lobortis consequat aliquam, quam est sodales erat, et tincidunt ligula metus in purus. Nulla posuere arcu in felis porttitor, vel maximus tellus feugiat. Proin imperdiet arcu vel urna feugiat, in elementum purus facilisis.</p>
+                                <p>Sed sapien sem, commodo eget nibh vel, euismod hendrerit neque. Quisque et augue eu nisl tristique bibendum. Maecenas euismod consequat ex sed congue. Donec convallis risus odio, nec lobortis sem fringilla ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla at augue eu nisi varius rhoncus. Donec quis facilisis mauris. Duis lobortis ultricies sapien, ut faucibus velit euismod quis. Suspendisse potenti. Suspendisse aliquam ipsum id leo fermentum, quis interdum mauris semper.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--------------------------------------- Modal Ends --------------------------------------->
+        <!--------------------------------------- Modal Ends --------------------------------------->
 
-    <!--------------------------------- Header Wrapper Starts ---------------------------------->
-    <header id="header-wrapper">
-        <div class="top-header-section">
-            <div class="custom-container">
-                <div class="news-login-lang-wrapper">
-                    <div class="news-wrapper">
-                        <ul>
-                            <li><a href="">नयाँ सुचनाहरु |</a></li>
-                            <li>
-                                <marquee direction="left" scrolldelay="90">
-                                    <ul>
-                                        <li>
-                                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusamus maiores explicabo. Reprehenderit cum sapiente aliquid impedit dicta incidunt tempore fugit sunt provident inventore porro eius pariatur, voluptas facere earum.</h6>
-                                        </li>
-                                        <li>
-                                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eum soluta exercitationem voluptatibus numquam vero eos?</h6>
-                                        </li>
-                                        <li>
-                                            <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
-                                        </li>
-                                        <li>
-                                            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
-                                        </li>
-                                    </ul>
-                                </marquee>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="login-lang-wrapper">
-                        <div class="login-wrapper">
-                            <button>
-                                <span><img src="img/icons/user.png" alt=""></span>
-                                लग - इन
-                            </button>
-                        </div>
-                        <div class="lang-wrapper">
+        <!--------------------------------- Header Wrapper Starts ---------------------------------->
+        <header id="header-wrapper">
+            <div class="top-header-section">
+                <div class="custom-container">
+                    <div class="news-login-lang-wrapper">
+                        <div class="news-wrapper">
                             <ul>
-                                <li><span>नेपा</span></li>
+                                <li><a href="">नयाँ सुचनाहरु |</a></li>
                                 <li>
-                                    <label class="switch">
-                                        <input type="checkbox" checked>
-                                        <span class="slider round"></span>
-                                    </label>
+                                    <marquee direction="left" scrolldelay="90">
+                                        <ul>
+                                            <li>
+                                                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam accusamus maiores explicabo. Reprehenderit cum sapiente aliquid impedit dicta incidunt tempore fugit sunt provident inventore porro eius pariatur, voluptas facere earum.</h6>
+                                            </li>
+                                            <li>
+                                                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eum soluta exercitationem voluptatibus numquam vero eos?</h6>
+                                            </li>
+                                            <li>
+                                                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
+                                            </li>
+                                            <li>
+                                                <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+                                            </li>
+                                        </ul>
+                                    </marquee>
                                 </li>
-                                <li><span>नेपा</span></li>
                             </ul>
                         </div>
+                        <div class="login-lang-wrapper">
+                            <div class="login-wrapper">
+                                <button>
+                                    <span><img src="img/icons/user.png" alt=""></span>
+                                    लग - इन
+                                </button>
+                            </div>
+                            <div class="lang-wrapper">
+                                <ul>
+                                    <li><span>नेपा</span></li>
+                                    <li>
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </li>
+                                    <li><span>नेपा</span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bottom-header-section">
-            <div class="custom-container">
-                <div class="logo-nav-wrapper">
-                    <div class="logo-container">
-                        <a href="">
-                            <img src="img/logo/logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav-container">
-                        <ul>
-                            <li>
-                                <a href=""> हाम्रो बारेमा </a>
-                            </li>
-                            <li>
-                                <a href="">  सबडोमेन  </a>
-                            </li>
-                            <li>
-                                <a href="">  अनलाइन लाइब्रेरी  </a>
-                            </li>
-                            <li>
-                                <a href="">  बिधान | नियमावली   </a>
-                            </li>
-                            <li>
-                                <a href="">  दस्ताबेज  </a>
-                            </li>
-                            <li>
-                                <a href="">   परिपत्र  </a>
-                            </li>
-                            <li>
-                                <a href="">   कृयासिल सदस्यता   </a>
-                            </li>
-                            <li>
-                                <a href=""> सामाजिक संजाल </a>
-                            </li>
-                            <li>
-                                <a href=""> केन्द्रिय निर्वाचन समिति </a>
-                            </li>
-                        </ul>
+            <div class="bottom-header-section">
+                <div class="custom-container">
+                    <div class="bottom-header-container">
+                        <div class="logo-nav-wrapper">
+                            <div class="logo-container">
+                                <a href="">
+                                    <img src="img/logo/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="nav-container">
+                                <ul>
+                                    <li>
+                                        <a href=""> हाम्रो बारेमा </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> सबडोमेन </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> अनलाइन लाइब्रेरी </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> बिधान | नियमावली </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> दस्ताबेज </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> परिपत्र </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> कृयासिल सदस्यता </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> सामाजिक संजाल </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> केन्द्रिय निर्वाचन समिति </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- For HAMBURGER MENU -->
+                            <div class="mobile-nav-toggle">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </header>
+        <!---------------------------------- Header Wrapper Ends ----------------------------------->
+
+        <!-- For HAMBURGER MENU -->
+        <div class="nav-section">
+            <div class="navigation">
+                <ul class="menu-wrapper">
+                    <li><a href=""> हाम्रो बारेमा </a></li>
+                    <li><a href=""> सबडोमेन </a></li>
+                    <li><a href=""> अनलाइन लाइब्रेरी </a></li>
+                    <li><a href=""> बिधान | नियमावली </a></li>
+                    <li><a href=""> दस्ताबेज </a></li>
+                    <li><a href=""> परिपत्र </a></li>
+                    <li><a href=""> कृयासिल सदस्यता </a></li>
+                    <li><a href=""> सामाजिक संजाल </a></li>
+                    <li><a href=""> केन्द्रिय निर्वाचन समिति </a></li>
+                </ul>
+
+            </div>
         </div>
-    </header>
-    <!---------------------------------- Header Wrapper Ends ----------------------------------->
+        <!-- FOR HAMBURGER MENU  -->
 
 
-
-    <!-------------------------------- Content Wrapper Starts ---------------------------------->
-    <div id="content-wrapper">
-
+        <!-------------------------------- Content Wrapper Starts ---------------------------------->
+        <div id="content-wrapper">

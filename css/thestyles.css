@@ -185,6 +185,28 @@
 }
 
 /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+.nav-section {
+  position: fixed;
+  height: 100vh;
+  background-color: #00BC46;
+  top: 0;
+  left: -1000px;
+  z-index: 10;
+  overflow-x: hidden;
+  transition: all 0.6s ease;
+}
+.nav-section .navigation {
+  padding: 250px 60px;
+}
+.nav-section .navigation ul {
+  text-align: center;
+}
+.nav-section .navigation ul li a {
+  font-size: 25px;
+  line-height: 2.5em;
+  color: #fff;
+}
+
 /*----------------------------------- Navigation Starts -----------------------------------*/
 /*------------------------------------ Navigation Ends ------------------------------------*/
 /*-------------------------------- Content Wrapper Starts ---------------------------------*/
@@ -286,7 +308,7 @@
 }
 #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper {
   display: flex;
-  margin: -50px;
+  margin: -30px;
 }
 #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item {
   width: 50%;
@@ -404,11 +426,8 @@
 #footer-wrapper .top-footer-section {
   background: #00BC46;
 }
-#footer-wrapper .top-footer-section .custom-container {
-  padding: 112px 200px;
-}
 #footer-wrapper .top-footer-section .custom-container .logo-container {
-  margin-bottom: 65px;
+  margin-block: 50px;
 }
 #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper {
   display: flex;
@@ -428,7 +447,7 @@
   color: #fff;
 }
 #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item .inner .social-link-container {
-  margin-top: 32px;
+  margin-block: 32px;
 }
 #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item .inner .social-link-container ul {
   display: flex;
@@ -514,10 +533,10 @@
   padding: 50px;
 }
 .common-content-wrapper .common-content-item:first-of-type {
-  width: 70%;
+  width: 65%;
 }
 .common-content-wrapper .common-content-item:last-of-type {
-  width: 30%;
+  width: 35%;
 }
 .common-content-wrapper .common-content-item:last-of-type .common-detail {
   background-color: transparent;
@@ -525,6 +544,9 @@
 .common-content-wrapper .common-content-item p {
   font-size: 14px;
   line-height: 24px;
+}
+.common-content-wrapper .common-content-item .inner .common-detail {
+  background-color: #FBFBFB;
 }
 .common-content-wrapper .common-content-item .inner .common-detail .upcoming-programs-item {
   padding: 27px;
@@ -535,7 +557,7 @@
   border-top: 1px solid #238B28;
 }
 .common-notice-container .common-detail .notice-wrapper .notice-item {
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   position: relative;
   padding-left: 30px;
 }
