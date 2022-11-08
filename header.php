@@ -143,38 +143,38 @@
                     <div class="bottom-header-container">
                         <div class="logo-nav-wrapper">
                             <div class="logo-container">
-                                <a href="">
+                                <a href="index.php">
                                     <img src="img/logo/logo.png" alt="">
                                 </a>
                             </div>
                             <div class="nav-container">
                                 <ul>
                                     <li>
-                                        <a href=""> हाम्रो बारेमा </a>
+                                        <a href="#"> हाम्रो बारेमा </a>
                                     </li>
                                     <li>
-                                        <a href=""> सबडोमेन </a>
+                                        <a href="#"> सबडोमेन </a>
                                     </li>
                                     <li>
-                                        <a href=""> अनलाइन लाइब्रेरी </a>
+                                        <a href="#"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
-                                        <a href=""> बिधान | नियमावली </a>
+                                        <a href="#"> बिधान | नियमावली </a>
                                     </li>
                                     <li>
-                                        <a href=""> दस्ताबेज </a>
+                                        <a href="#"> दस्ताबेज </a>
                                     </li>
                                     <li>
-                                        <a href=""> परिपत्र </a>
+                                        <a href="#"> परिपत्र </a>
                                     </li>
                                     <li>
-                                        <a href=""> कृयासिल सदस्यता </a>
+                                        <a href="#"> कृयासिल सदस्यता </a>
                                     </li>
                                     <li>
-                                        <a href=""> सामाजिक संजाल </a>
+                                        <a href="#"> सामाजिक संजाल </a>
                                     </li>
                                     <li>
-                                        <a href=""> केन्द्रिय निर्वाचन समिति </a>
+                                        <a href="#"> केन्द्रिय निर्वाचन समिति </a>
                                     </li>
                                 </ul>
                             </div>
@@ -194,15 +194,15 @@
         <div class="nav-section">
             <div class="navigation">
                 <ul class="menu-wrapper">
-                    <li><a href=""> हाम्रो बारेमा </a></li>
-                    <li><a href=""> सबडोमेन </a></li>
-                    <li><a href=""> अनलाइन लाइब्रेरी </a></li>
-                    <li><a href=""> बिधान | नियमावली </a></li>
-                    <li><a href=""> दस्ताबेज </a></li>
-                    <li><a href=""> परिपत्र </a></li>
-                    <li><a href=""> कृयासिल सदस्यता </a></li>
-                    <li><a href=""> सामाजिक संजाल </a></li>
-                    <li><a href=""> केन्द्रिय निर्वाचन समिति </a></li>
+                    <li><a href="#"> हाम्रो बारेमा </a></li>
+                    <li><a href="#"> सबडोमेन </a></li>
+                    <li><a href="#"> अनलाइन लाइब्रेरी </a></li>
+                    <li><a href="#"> बिधान | नियमावली </a></li>
+                    <li><a href="#"> दस्ताबेज </a></li>
+                    <li><a href="#"> परिपत्र </a></li>
+                    <li><a href="#"> कृयासिल सदस्यता </a></li>
+                    <li><a href="#"> सामाजिक संजाल </a></li>
+                    <li><a href="#"> केन्द्रिय निर्वाचन समिति </a></li>
                 </ul>
 
             </div>

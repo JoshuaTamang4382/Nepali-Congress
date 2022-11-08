@@ -537,32 +537,32 @@ include('header.php') ?>
                     </li>
                     <li>
                         <button>
-                            <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <span><img src="img/icons/PARTYY 1.png" alt=""></span>
+                            पार्टी नियमावली
                         </button>
                     </li>
                     <li>
                         <button>
-                            <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <span><img src="img/icons/PATRA 1.png" alt=""></span>
+                            नेतृत्वलाई पत्र
                         </button>
                     </li>
                     <li>
                         <button>
-                            <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <span><img src="img/icons/BAHAS 1.png" alt=""></span>
+                            खुला बहस
                         </button>
                     </li>
                     <li>
                         <button>
-                            <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <span><img src="img/icons/ONLINE 1.png" alt=""></span>
+                            अनलाइन संग्रहालय
                         </button>
                     </li>
                     <li>
                         <button>
-                            <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <span><img src="img/icons/LIBRARY 1.png" alt=""></span>
+                            अनलाइन लाइब्रेरी
                         </button>
                     </li>
                 </ul>

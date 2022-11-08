@@ -92,25 +92,6 @@ function navInit() {
       })*/
 }
 
-function navInit() {
-    var scrollTop = 0;
-    jQuery(window).scroll(function () {
-        scrollTop = jQuery(window).scrollTop();
-        jQuery('.counter').html(scrollTop);
-        if (scrollTop >= 150) {
-            jQuery('#header-wrapper').addClass('nav-scroll');
-        } else if (scrollTop < 150) {
-            jQuery('#header-wrapper').removeClass('nav-scroll');
-        }
-    });
-    /*    $('.has-submenu > a').click(function (e) {
-            event.preventDefault();
-        })*/
-
-    /*$('.menu-item-has-children').click(function () {
-        $(this).parent('li').children('ul').addClass('open');
-    })*/
-}
 
 function addClassInit() {
 

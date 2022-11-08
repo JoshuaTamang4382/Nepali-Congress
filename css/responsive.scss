@@ -174,7 +174,7 @@
           .nation-people-item {
             .inner {
               .image-container {
-                width: 100px;
+                // width: 100px;
               }
             }
           }
@@ -245,51 +245,49 @@
 
 
 @media all and (max-width: 1399px) {
+
   /*------------------------------------ Site Wide Starts -----------------------------------*/
+  h5 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
-  // #header-wrapper {
-  //   .bottom-header-section {
-  //     .nav-container {
-  //       display: none;
-  //     }
+  #header-wrapper {
 
-  //     .bottom-header-container {
-  //       .logo-nav-wrapper {
-  //         .mobile-nav-toggle {
-  //           display: block;
+    .bottom-header-section {
+      .logo-nav-wrapper {
+        .logo-container {
+          a {
+            img {
+              width: 80%;
+            }
+          }
+        }
 
-  //           span {
-  //             display: block;
-  //             width: 20px;
-  //             height: 3px;
-  //             background-color: #fff;
-  //             -webkit-transition: all 0.5s ease-in-out;
-  //             transition: all 0.5s ease-in-out;
+        .nav-container {
+          &>ul {
+            &>li {
+              &:not(:last-of-type) {
+                margin-right: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
 
-  //             &:not(:last-of-type) {
-  //               margin-bottom: 5px;
-  //             }
-  //           }
+  }
 
-  //           &.openToggle {
-  //             span {
-  //               &:first-of-type {
-  //                 margin: 0;
-  //                 transform: translateY(1px) rotate(45deg);
-  //               }
-
-  //               &:last-of-type {
-  //                 transform: translateY(-2px) rotate(-45deg);
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
@@ -298,7 +296,42 @@
   /*------------------------------------ Navigation Ends ------------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
-  #content-wrapper {}
+  #content-wrapper {
+    #home-page {
+      .national-people-section {
+        .section-title {
+          h4 {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .national-people-wrapper {
+        .nation-people-item {
+          .inner {
+            .image-container {
+              img {
+                // width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .button-section {
+        .button-wrapper {
+          ul {
+            li {
+              button {
+                padding: 10px 15px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 
@@ -308,6 +341,20 @@
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
 
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section {
+    .banner-slider {
+      .common-banner-item-wrapper {
+        .common-banner-item {
+          .text-container {
+            .inner {
+              padding: 0 41px;
+            }
+          }
+        }
+      }
+    }
+  }
+
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*-------------------------------------- Modal Starts -------------------------------------*/
@@ -321,12 +368,224 @@
 }
 
 
+@media all and (max-width: 1300px) {
+
+  /*------------------------------------ Site Wide Starts -----------------------------------*/
+  h5 {
+    font-size: 15px;
+  }
+
+  p {
+
+    margin-bottom: 12px;
+  }
+
+  /*------------------------------------- Site Wide Ends ------------------------------------*/
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper {
+    .bottom-header-section {
+      .logo-nav-wrapper {
+        .nav-container {
+          &>ul {
+            &>li {
+              &:not(:last-of-type) {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+
+  /*----------------------------------- Navigation Starts -----------------------------------*/
+  /*------------------------------------ Navigation Ends ------------------------------------*/
+
+  /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper {
+    #home-page {
+      .common-banner-section {
+        .banner-slider-profile-wrapper {
+          .profile-wrapper {
+            .common-profile-container {
+              &:not(:last-of-type) {
+                padding-bottom: 12px;
+              }
+
+              .inner {
+                .image-container {
+                  height: 90px;
+                  width: 90px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .national-people-wrapper {
+        .nation-people-item {
+          .inner {
+            .image-container {
+              width: 100px;
+
+              img {
+                width: 100%;
+              }
+            }
+
+            .text-container {
+              margin-top: 25px;
+            }
+          }
+        }
+      }
+
+      .national-people-section {
+        .section-title {
+          h4 {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .savapati-sandesh-section {
+        .image-text-container {
+          .text-container {
+            padding-right: 40px;
+          }
+        }
+      }
+
+      .button-section {
+        .button-wrapper {
+          ul {
+            li {
+              button {
+                padding: 10px 10px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+  /*--------------------------------- Content Wrapper Ends ----------------------------------*/
+
+  /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper {}
+
+  /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+
+  /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section {
+    .banner-slider-profile-wrapper {
+
+      .common-banner-item-wrapper {
+        .common-banner-item {
+          .image-container {
+            height: 580px;
+          }
+        }
+      }
+    }
+  }
+
+  .common-content-wrapper {
+    .common-content-item {
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  /*------------------------------------ Components Ends ------------------------------------*/
+
+  /*-------------------------------------- Modal Starts -------------------------------------*/
+  /*--------------------------------------- Modal Ends --------------------------------------*/
+
+  /*---------------------------------- Slick Slider Starts ----------------------------------*/
+  /*----------------------------------- Slick Slider Ends -----------------------------------*/
+
+  /*------------------------------------ Animation Starts -----------------------------------*/
+  /*------------------------------------- Animation Ends ------------------------------------*/
+}
+
 @media all and (max-width: 1199px) {
   /*------------------------------------ Site Wide Starts -----------------------------------*/
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
-  #header-wrapper {}
+  #header-wrapper {
+    .top-header-section {
+      .news-login-lang-wrapper {
+        .news-wrapper {
+          &>ul {
+            &>li {
+              &:first-of-type {
+                width: 30%;
+              }
+
+              &:last-of-type {
+                width: 70%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .bottom-header-section {
+      .nav-container {
+        display: none;
+      }
+
+      .bottom-header-container {
+        padding-block: 25px;
+
+        .logo-nav-wrapper {
+          justify-content: space-between;
+
+          .mobile-nav-toggle {
+            display: block;
+
+            span {
+              display: block;
+              width: 20px;
+              height: 3px;
+              background-color: #238B28;
+              transition: all 0.5s ease-in-out;
+
+              &:not(:last-of-type) {
+                margin-bottom: 5px;
+              }
+            }
+
+            &.openToggle {
+              span {
+                &:first-of-type {
+                  margin: 0;
+                  transform: translateY(1px) rotate(45deg);
+                }
+
+                &:last-of-type {
+                  transform: translateY(-2px) rotate(-45deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 
