@@ -519,7 +519,18 @@
 }
 
 @media all and (max-width: 1199px) {
+
   /*------------------------------------ Site Wide Starts -----------------------------------*/
+  h5,
+  h6 {
+    font-size: 13px;
+  }
+
+  a,
+  span {
+    font-size: 15px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
@@ -571,11 +582,13 @@
             &.openToggle {
               span {
                 &:first-of-type {
+                  background-color: aliceblue;
                   margin: 0;
                   transform: translateY(1px) rotate(45deg);
                 }
 
                 &:last-of-type {
+                  background-color: aliceblue;
                   transform: translateY(-2px) rotate(-45deg);
                 }
               }
@@ -593,16 +606,153 @@
   /*------------------------------------ Navigation Ends ------------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
-  #content-wrapper {}
+  #content-wrapper {
+    #home-page {
+      .common-banner-section {
+        .banner-slider-profile-wrapper {
+          margin: -20px;
+
+          .banner-slider {
+            padding: 20px;
+          }
+
+          .profile-wrapper {
+            padding: 20px;
+
+            .common-profile-container {
+              .inner {
+                padding: 24px 9px;
+
+                .image-container {
+                  height: 75px;
+                  width: 75px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .national-people-section {
+        .national-people-wrapper {
+          .nation-people-item {
+            .inner {
+              width: 73px;
+
+              .image-container {
+                width: 85px;
+              }
+            }
+          }
+        }
+      }
+
+      .button-section {
+        .button-wrapper {
+          ul {
+            li {
+              button {
+                flex-direction: column;
+                padding: 10px 25px;
+
+                span {
+                  margin-right: 0;
+                  margin-bottom: 5px;
+
+                  img {
+                    width: 75%;
+                  }
+                }
+
+                a {
+                  // font-size: 15px;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
-  #footer-wrapper {}
+  #footer-wrapper {
+    .top-footer-section {
+      .custom-container {
+        .logo-container {
+          margin-block: 35px;
+        }
+
+        .top-footer-wrapper {
+          .top-footer-item {
+            width: 30%;
+
+            .inner {
+              .title {
+                padding-bottom: 20px;
+              }
+
+              .content {
+                ul {
+                  li {
+                    &:not(:last-of-type) {
+                      margin-bottom: 0px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
 
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
 
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-btn.banner-btn {
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .common-content-wrapper {
+    display: block;
+
+    .common-content-item {
+      &:first-of-type {
+        width: 100%;
+      }
+
+      &:last-of-type {
+        width: 100%;
+      }
+    }
+  }
+
+  .common-content-wrapper {
+    .common-content-item {
+      .inner {
+        .common-detail {
+          .upcoming-programs-item {
+            .text-container {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*-------------------------------------- Modal Starts -------------------------------------*/
@@ -629,7 +779,124 @@
   /*------------------------------------ Navigation Ends ------------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
-  #content-wrapper {}
+  #content-wrapper {
+    #home-page {
+      .common-banner-section {
+        .banner-slider-profile-wrapper {
+          display: block;
+
+          .banner-slider {
+            width: 100%;
+          }
+
+          .profile-wrapper {
+            width: 100%;
+          }
+        }
+      }
+
+      .national-people-section {
+        .national-people-wrapper {
+          flex-flow: row;
+          flex-wrap: wrap;
+          padding-left: 0 !important;
+          margin-left: 0;
+          display: flex;
+          justify-content: space-evenly;
+          position: relative;
+          // padding: 70px 0 15px;
+
+          .nation-people-item {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            &:nth-last-of-type(1) {
+              margin-left: 100px;
+            }
+
+            &:nth-last-of-type(2) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(3) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(4) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(5) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(6) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(7) {
+              width: 50%;
+            }
+
+            &:nth-last-of-type(8) {
+              margin-left: 140px;
+            }
+
+            .inner {
+              width: 160px;
+
+              .image-container {
+                width: 160px;
+
+                img {
+                  width: 60%;
+                }
+              }
+
+              .text-container {
+                margin-block: 20px;
+              }
+            }
+          }
+        }
+      }
+
+      .savapati-sandesh-section {
+        .image-text-container {
+          display: block;
+
+          .text-container {
+            width: 100%;
+          }
+
+          .image-container {
+            width: 100%;
+          }
+        }
+      }
+
+      .press-bigapti-section {
+        .press-bigapti-wrapper {
+          display: block;
+
+          .press-bigapti-item {
+            width: 100%;
+
+            .common-blog-container {
+              .common-blog-item {
+                .image-container {
+                  width: 20%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 
@@ -639,6 +906,44 @@
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
 
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section {
+    .banner-slider {
+      .common-banner-item-wrapper {
+        display: block;
+
+        .common-banner-item {
+          width: 100%;
+
+          .text-container {
+            margin-block: 25px;
+
+            .inner {
+              .title {
+                h5 {
+                  margin-bottom: 10px;
+                }
+              }
+
+              .content {
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .common-btn.banner-btn {
+    margin-bottom: 25px;
+  }
+
+  .read-more-btn {
+    margin: auto;
+    margin-bottom: 0;
+  }
+
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*-------------------------------------- Modal Starts -------------------------------------*/

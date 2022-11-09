@@ -244,6 +244,14 @@
 }
 @media all and (max-width: 1199px) {
   /*------------------------------------ Site Wide Starts -----------------------------------*/
+  h5,
+h6 {
+    font-size: 13px;
+  }
+  a,
+span {
+    font-size: 15px;
+  }
   /*------------------------------------- Site Wide Ends ------------------------------------*/
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li:first-of-type {
@@ -275,20 +283,89 @@
     margin-bottom: 5px;
   }
   #header-wrapper .bottom-header-section .bottom-header-container .logo-nav-wrapper .mobile-nav-toggle.openToggle span:first-of-type {
+    background-color: aliceblue;
     margin: 0;
     transform: translateY(1px) rotate(45deg);
   }
   #header-wrapper .bottom-header-section .bottom-header-container .logo-nav-wrapper .mobile-nav-toggle.openToggle span:last-of-type {
+    background-color: aliceblue;
     transform: translateY(-2px) rotate(-45deg);
   }
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   /*----------------------------------- Navigation Starts -----------------------------------*/
   /*------------------------------------ Navigation Ends ------------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper {
+    margin: -20px;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .banner-slider {
+    padding: 20px;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper {
+    padding: 20px;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper .common-profile-container .inner {
+    padding: 24px 9px;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper .common-profile-container .inner .image-container {
+    height: 75px;
+    width: 75px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner {
+    width: 73px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container {
+    width: 85px;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li button {
+    flex-direction: column;
+    padding: 10px 25px;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li button span {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li button span img {
+    width: 75%;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li button a {
+    color: #fff;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+  #footer-wrapper .top-footer-section .custom-container .logo-container {
+    margin-block: 35px;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item {
+    width: 30%;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item .inner .title {
+    padding-bottom: 20px;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item .inner .content ul li:not(:last-of-type) {
+    margin-bottom: 0px;
+  }
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-btn.banner-btn {
+    padding: 7px;
+    font-size: 15px;
+  }
+  .common-content-wrapper {
+    display: block;
+  }
+  .common-content-wrapper .common-content-item:first-of-type {
+    width: 100%;
+  }
+  .common-content-wrapper .common-content-item:last-of-type {
+    width: 100%;
+  }
+  .common-content-wrapper .common-content-item .inner .common-detail .upcoming-programs-item .text-container {
+    margin-top: 10px;
+  }
+  .common-content-wrapper .common-content-item p {
+    font-size: 14px;
+  }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*-------------------------------------- Modal Starts -------------------------------------*/
   /*--------------------------------------- Modal Ends --------------------------------------*/
@@ -305,10 +382,111 @@
   /*----------------------------------- Navigation Starts -----------------------------------*/
   /*------------------------------------ Navigation Ends ------------------------------------*/
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper {
+    display: block;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .banner-slider {
+    width: 100%;
+  }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper {
+    width: 100%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper {
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding-left: 0 !important;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(1) {
+    margin-left: 100px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(2) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(3) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(4) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(5) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(6) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(7) {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(8) {
+    margin-left: 140px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner {
+    width: 160px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container {
+    width: 160px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container img {
+    width: 60%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .text-container {
+    margin-block: 20px;
+  }
+  #content-wrapper #home-page .savapati-sandesh-section .image-text-container {
+    display: block;
+  }
+  #content-wrapper #home-page .savapati-sandesh-section .image-text-container .text-container {
+    width: 100%;
+  }
+  #content-wrapper #home-page .savapati-sandesh-section .image-text-container .image-container {
+    width: 100%;
+  }
+  #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper {
+    display: block;
+  }
+  #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item {
+    width: 100%;
+  }
+  #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item .common-blog-container .common-blog-item .image-container {
+    width: 20%;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
+  .common-banner-section .banner-slider .common-banner-item-wrapper {
+    display: block;
+  }
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item {
+    width: 100%;
+  }
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .text-container {
+    margin-block: 25px;
+  }
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .text-container .inner .title h5 {
+    margin-bottom: 10px;
+  }
+  .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .text-container .inner .content {
+    margin-bottom: 15px;
+  }
+  .common-btn.banner-btn {
+    margin-bottom: 25px;
+  }
+  .read-more-btn {
+    margin: auto;
+    margin-bottom: 0;
+  }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*-------------------------------------- Modal Starts -------------------------------------*/
   /*--------------------------------------- Modal Ends --------------------------------------*/

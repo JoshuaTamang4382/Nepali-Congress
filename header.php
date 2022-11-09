@@ -192,7 +192,13 @@
 
         <!-- For HAMBURGER MENU -->
         <div class="nav-section">
+            <!-- <div class="logo-container">
+                <a href="index.php">
+                    <img src="img/logo/logo.png" alt="">
+                </a>
+            </div> -->
             <div class="navigation">
+
                 <ul class="menu-wrapper">
                     <li><a href="#"> हाम्रो बारेमा </a></li>
                     <li><a href="#"> सबडोमेन </a></li>

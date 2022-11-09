@@ -11,18 +11,24 @@
   color: #fff;
 }
 
+
+
 /*------------------------------------ Mixins Ends -----------------------------------*/
 
 
 /*------------------------------------ Site Wide Starts -----------------------------------*/
 body {
   &.open-nav {
+    overflow: hidden;
+
     .nav-section {
       left: 0;
+      right: 0;
       transition: all 0.5s ease;
     }
   }
 }
+
 
 /*------------------------------------- Site Wide Ends ------------------------------------*/
 
@@ -240,7 +246,7 @@ body {
   transition: all 0.5s ease-in;
 
   .navigation {
-    padding: 250px 60px;
+    padding: 200px 60px;
 
     ul {
       text-align: center;
@@ -256,6 +262,9 @@ body {
   }
 }
 
+.mobile-nav-toggle {
+  z-index: 12;
+}
 
 /*----------------------------------- Navigation Starts -----------------------------------*/
 /*------------------------------------ Navigation Ends ------------------------------------*/

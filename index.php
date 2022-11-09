@@ -532,37 +532,37 @@ include('header.php') ?>
                     <li>
                         <button>
                             <span><img src="img/icons/button1.png" alt=""></span>
-                            प्रेस विज्ञप्ति
+                            <a href="#">प्रेस विज्ञप्ति</a>
                         </button>
                     </li>
                     <li>
                         <button>
                             <span><img src="img/icons/PARTYY 1.png" alt=""></span>
-                            पार्टी नियमावली
+                            <a href="#">पार्टी नियमावली</a>
                         </button>
                     </li>
                     <li>
                         <button>
                             <span><img src="img/icons/PATRA 1.png" alt=""></span>
-                            नेतृत्वलाई पत्र
+                            <a href="#">नेतृत्वलाई पत्र</a>
                         </button>
                     </li>
                     <li>
                         <button>
                             <span><img src="img/icons/BAHAS 1.png" alt=""></span>
-                            खुला बहस
+                            <a href="#">खुला बहस</a>
                         </button>
                     </li>
                     <li>
                         <button>
                             <span><img src="img/icons/ONLINE 1.png" alt=""></span>
-                            अनलाइन संग्रहालय
+                            <a href="#">अनलाइन संग्रहालय</a>
                         </button>
                     </li>
                     <li>
                         <button>
                             <span><img src="img/icons/LIBRARY 1.png" alt=""></span>
-                            अनलाइन लाइब्रेरी
+                            <a href="#">अनलाइन लाइब्रेरी</a>
                         </button>
                     </li>
                 </ul>
