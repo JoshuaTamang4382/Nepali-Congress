@@ -33,8 +33,24 @@ function sliderInit() {
     $('.upcoming-programs-slider').slick({
         arrows: false,
         dots: false,
+        // vertical: true,
         slidesToShow: 3,
+        autoplay: false,
+        // verticalswiping: true,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    vertical: true,
+                    autoplay: true,
+                    arrows: false,
+                    dots: false,
+                },
+            },
+        ],
     });
 
     /*    $('.product-gallery-slider').slick({
