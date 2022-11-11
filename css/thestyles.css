@@ -361,6 +361,9 @@ body.open-nav .nav-section {
   border-radius: 4px;
   color: #fff;
 }
+#content-wrapper #home-page .button-section .button-wrapper ul li button a {
+  color: #fff;
+}
 #content-wrapper #home-page .button-section .button-wrapper ul li button span {
   margin-right: 15px;
 }

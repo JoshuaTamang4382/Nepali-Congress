@@ -518,7 +518,8 @@ span {
 @media all and (max-width: 767px) {
   /*------------------------------------ Site Wide Starts -----------------------------------*/
   .custom-container {
-    padding: 35px 30px;
+    padding: 25px 30px;
+    overflow: hidden;
   }
   /*------------------------------------- Site Wide Ends ------------------------------------*/
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
