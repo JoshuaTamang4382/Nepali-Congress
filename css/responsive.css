@@ -473,8 +473,10 @@ span {
     padding: 20px;
   }
   #content-wrapper #home-page .button-section .button-wrapper ul li button {
-    padding: 20px 74px;
+    flex-direction: row;
+    padding: 20px 72px;
     width: 100%;
+    justify-content: space-evenly;
   }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
@@ -555,6 +557,7 @@ span {
   }
   #content-wrapper #home-page .button-section .button-wrapper ul li button {
     padding: 20px 10px;
+    flex-direction: column;
   }
   #content-wrapper #home-page .button-section .button-wrapper ul li button span img {
     width: 40px;

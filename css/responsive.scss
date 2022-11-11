@@ -912,8 +912,10 @@
               padding: 20px;
 
               button {
-                padding: 20px 74px;
+                flex-direction: row;
+                padding: 20px 72px;
                 width: 100%;
+                justify-content: space-evenly;
               }
             }
           }
@@ -1091,6 +1093,7 @@
             li {
               button {
                 padding: 20px 10px;
+                flex-direction: column;
 
                 span {
                   img {
