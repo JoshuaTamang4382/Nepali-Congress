@@ -8,30 +8,54 @@
 /*-------------------------------------- Colors Ends --------------------------------------*/
 /*-------------------------------------- Mixins Starts ------------------------------------*/
 .ex-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
 }
 
 .ex-flex-wrap {
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
 
 .ex-vertical {
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .ex-transition {
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
 
 .ex-transition-medium {
+  -webkit-transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
   transition: all 1.2s ease;
 }
 
 .ex-transition-large {
+  -webkit-transition: all 1.8s ease;
+  -moz-transition: all 1.8s ease;
+  -ms-transition: all 1.8s ease;
+  -o-transition: all 1.8s ease;
   transition: all 1.8s ease;
 }
 
@@ -145,6 +169,7 @@ body.open-nav .nav-section {
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li .switch .slider:before {
@@ -155,6 +180,7 @@ body.open-nav .nav-section {
   left: 4px;
   bottom: 4px;
   background-color: white;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li .switch .slider.round {
@@ -193,7 +219,7 @@ body.open-nav .nav-section {
   color: #000;
 }
 
-/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ----------------------------------*/
 .nav-section {
   position: fixed;
   height: 100vh;
@@ -257,8 +283,7 @@ body.open-nav .nav-section {
 #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper .common-profile-container .inner .image-container img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper .common-profile-container .inner .description h6 {
   font-weight: 600;
@@ -613,10 +638,8 @@ body.open-nav .nav-section {
 .common-block-container .block-item .inner .image-container a img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -934,16 +957,6 @@ body.open-nav .nav-section {
 
 /*--------------------------------------- Modal Ends --------------------------------------*/
 /*------------------------------------ Animation Starts -----------------------------------*/
-@-webkit-keyframes slide-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 0.9;
-    transform: translateY(0);
-  }
-}
 @keyframes slide-down {
   0% {
     opacity: 0;
