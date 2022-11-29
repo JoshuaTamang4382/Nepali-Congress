@@ -150,7 +150,14 @@
                             <div class="nav-container">
                                 <ul>
                                     <li>
-                                        <a href="#"> हाम्रो बारेमा </a>
+                                        <a href="#"> हाम्रो बारेमा
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-items">
+                                            <li><a href="#"> परिचय </a></li>
+                                            <li><a href="#"> केन्द्रीय कार्य समिति </a></li>
+                                            <li><a href="#"> केन्द्रिय कार्यालय </a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#"> सबडोमेन </a>

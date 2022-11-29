@@ -215,8 +215,28 @@ body.open-nav .nav-section {
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li a {
   display: block;
-  padding: 54px 0px;
+  padding: 54px 0px 15px 0px;
   color: #000;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items {
+  display: none;
+  height: auto;
+  width: 155px;
+  background-color: #238B28;
+  position: absolute;
+  left: 0;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a {
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a:hover {
+  color: #238B28;
+  background-color: #fff;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li:hover .dropdown-items {
+  display: block;
 }
 
 /*--------------------------------- Header Wrapper Starts ----------------------------------*/

@@ -223,8 +223,36 @@ body {
 
             a {
               display: block;
-              padding: 54px 0px;
+              padding: 54px 0px 15px 0px;
               color: #000;
+            }
+
+            .dropdown-items {
+              display: none;
+              height: auto;
+              width: 155px;
+              background-color: #238B28;
+              position: absolute;
+              left: 0;
+
+              li {
+                a {
+                  text-align: center;
+                  padding: 10px 0;
+                  color: #fff;
+
+                  &:hover {
+                    color: #238B28;
+                    background-color: #fff;
+                  }
+                }
+              }
+            }
+
+            &:hover {
+              .dropdown-items {
+                display: block;
+              }
             }
           }
         }
