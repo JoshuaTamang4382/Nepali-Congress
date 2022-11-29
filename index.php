@@ -11,7 +11,7 @@ include('header.php') ?>
 <div id="home-page">
 
     <section class="common-banner-section">
-        <div class="custom-container remove-top-padding">
+        <div class="custom-container ">
             <div class="banner-slider-profile-wrapper">
                 <div class="banner-slider">
                     <div class="common-banner-item-wrapper">

@@ -215,8 +215,14 @@ body.open-nav .nav-section {
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li a {
   display: block;
-  padding: 54px 0px 15px 0px;
+  padding: 30px 0px;
   color: #000;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li a:hover {
+  color: #238B28;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li a:hover i {
+  color: #238B28;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items {
   display: none;
@@ -225,6 +231,7 @@ body.open-nav .nav-section {
   background-color: #238B28;
   position: absolute;
   left: 0;
+  z-index: 1;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a {
   text-align: center;
