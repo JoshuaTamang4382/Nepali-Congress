@@ -9,7 +9,7 @@ include ('header.php') ?>
 
     <div id="parichaya-page">
 
-    
+        section.
 
     </div>
 <?php include ('footer.php') ?>
