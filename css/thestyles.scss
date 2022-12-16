@@ -1,10 +1,10 @@
 /**
- * Created by Sushant Gauchan
- * Email : sushant.gauchan11@gmail.com
+ * Created by Joshua Tamang,Sanish karki,Shiva Puri
 */
 
 @import "components/fonts_and_colors";
 @import "sanish scss/parichaya_page.css";
+@import "sanish scss/karya_samati_page.css";
 
 /*------------------------------------ Mixins Starts -----------------------------------*/
 @mixin white-green {
@@ -802,6 +802,104 @@ body {
       }
     }
   }
+}
+
+.common-profile-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: -20px -80px;
+
+
+  .common-profile-item {
+    padding: 20px 80px;
+
+    .inner {
+      padding: 15px;
+
+      .image-container {
+        height: 150px;
+        width: 150px;
+        margin: auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+
+      .content {
+        padding-block: 8px;
+        text-align: center;
+
+        h5 {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        h6 {
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+
+      .social-link {
+        ul.social-container {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+          li {
+            transition: all 0.4s ease-in-out;
+
+            a {
+
+              span {
+                font-size: 1.4rem;
+
+                i {
+                  padding: 7px 10px;
+                  text-align: center;
+                  background-color: #3b5999;
+                  color: #fff;
+                  border-radius: 6px;
+
+                  &.fa-facebook-f {
+                    padding: 7px 13px;
+                  }
+
+                  &.fa-twitter {
+                    background-color: #55acee;
+                  }
+                }
+              }
+            }
+
+            &:hover {
+              transition: all 0.4s ease-in-out;
+              transform: scale(1.1);
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.central-office {
+    margin: -20px;
+
+    .common-profile-item {
+      padding: 20px;
+
+    }
+  }
+
+  // &:not(:first-of-type) {
+  //   margin-top: 40px;
+  // }
 }
 
 .common-content-wrapper {

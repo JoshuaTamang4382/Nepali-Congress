@@ -1,6 +1,5 @@
 <!-- 
-    Created by Sushant Gauchan 
-    Sushant.gauchan11@gmail.com    
+    Created by Joshua Tamang,Sanish karki,Shiva Puri   
 -->
 <?php include 'constant.php' ?>
 
