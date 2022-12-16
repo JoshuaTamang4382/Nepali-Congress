@@ -7,6 +7,7 @@
 /*------------------------------------- Colors Starts -------------------------------------*/
 /*-------------------------------------- Colors Ends --------------------------------------*/
 /*-------------------------------------- Mixins Starts ------------------------------------*/
+@import "sanish scss/parichaya_page.css";
 .ex-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -137,6 +138,7 @@ body.open-nav .nav-section {
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li {
   display: inline-block;
   color: #fff;
+  font-size: 14px;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li:nth-of-type(2) {
   margin-inline: 8px;
@@ -227,20 +229,31 @@ body.open-nav .nav-section {
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items {
   display: none;
   height: auto;
-  width: 155px;
+  width: 210px;
   background-color: #238B28;
   position: absolute;
   left: 0;
   z-index: 1;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a {
-  text-align: center;
-  padding: 10px 0;
+  text-align: left;
+  padding: 10px;
   color: #fff;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a:hover {
   color: #238B28;
   background-color: #fff;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 18px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #238B28;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li:hover .dropdown-items {
   display: block;
@@ -412,12 +425,19 @@ body.open-nav .nav-section {
   padding: 15px 50px;
   border-radius: 4px;
   color: #fff;
+  transition: all 0.3s cubic-bezier(0.25, 0.74, 0.22, 0.99);
 }
 #content-wrapper #home-page .button-section .button-wrapper ul li button a {
   color: #fff;
 }
 #content-wrapper #home-page .button-section .button-wrapper ul li button span {
   margin-right: 15px;
+}
+#content-wrapper #home-page .button-section .button-wrapper ul li:hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+#content-wrapper #home-page .button-section .button-wrapper ul li:hover button {
+  transform: scale(1.1);
 }
 #content-wrapper #home-page .social-section .social-wrapper {
   display: flex;
