@@ -1,12 +1,13 @@
 /**
- * Created by Sushant Gauchan
- * Email : sushant.gauchan11@gmail.com
+ * Created by Joshua Tamang,Sanish karki,Shiva Puri
 */
 /*-------------------------------------- Fonts Starts -------------------------------------*/
 /*--------------------------------------- Fonts Ends --------------------------------------*/
 /*------------------------------------- Colors Starts -------------------------------------*/
 /*-------------------------------------- Colors Ends --------------------------------------*/
 /*-------------------------------------- Mixins Starts ------------------------------------*/
+@import "sanish scss/parichaya_page.css";
+@import "sanish scss/karya_samati_page.css";
 .ex-flex {
   display: flex;
   flex-direction: row;
@@ -113,6 +114,7 @@ body.open-nav .nav-section {
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li {
   display: inline-block;
   color: #fff;
+  font-size: 14px;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li:nth-of-type(2) {
   margin-inline: 8px;
@@ -201,20 +203,31 @@ body.open-nav .nav-section {
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items {
   display: none;
   height: auto;
-  min-width: 155px;
+  width: 210px;
   background-color: #238B28;
   position: absolute;
   left: 0;
   z-index: 1;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a {
-  text-align: center;
-  padding: 10px 0;
+  text-align: left;
+  padding: 10px;
   color: #fff;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items li a:hover {
   color: #238B28;
   background-color: #fff;
+}
+#header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li .dropdown-items::after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 18px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #238B28;
 }
 #header-wrapper .bottom-header-section .logo-nav-wrapper .nav-container > ul > li:hover .dropdown-items {
   display: block;
@@ -388,12 +401,19 @@ body.open-nav .nav-section {
   padding: 15px 50px;
   border-radius: 4px;
   color: #fff;
+  transition: all 0.3s cubic-bezier(0.25, 0.74, 0.22, 0.99);
 }
 #content-wrapper #home-page .button-section .button-wrapper ul li button a {
   color: #fff;
 }
 #content-wrapper #home-page .button-section .button-wrapper ul li button span {
   margin-right: 15px;
+}
+#content-wrapper #home-page .button-section .button-wrapper ul li:hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+#content-wrapper #home-page .button-section .button-wrapper ul li:hover button {
+  transform: scale(1.1);
 }
 #content-wrapper #home-page .social-section .social-wrapper {
   display: flex;
@@ -601,6 +621,77 @@ body.open-nav .nav-section {
   height: 50vh;
   display: flex;
   align-items: center;
+}
+
+.common-profile-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: -20px -80px;
+}
+.common-profile-wrapper .common-profile-item {
+  padding: 20px 80px;
+}
+.common-profile-wrapper .common-profile-item .inner {
+  padding: 15px;
+}
+.common-profile-wrapper .common-profile-item .inner .image-container {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+.common-profile-wrapper .common-profile-item .inner .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.common-profile-wrapper .common-profile-item .inner .content {
+  padding-block: 8px;
+  text-align: center;
+}
+.common-profile-wrapper .common-profile-item .inner .content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.common-profile-wrapper .common-profile-item .inner .content h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li {
+  transition: all 0.4s ease-in-out;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li a span {
+  font-size: 1.4rem;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li a span i {
+  padding: 7px 10px;
+  text-align: center;
+  background-color: #3b5999;
+  color: #fff;
+  border-radius: 6px;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li a span i.fa-facebook-f {
+  padding: 7px 13px;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li a span i.fa-twitter {
+  background-color: #55acee;
+}
+.common-profile-wrapper .common-profile-item .inner .social-link ul.social-container li:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+.common-profile-wrapper.central-office {
+  margin: -20px;
+}
+.common-profile-wrapper.central-office .common-profile-item {
+  padding: 20px;
 }
 
 .common-content-wrapper {

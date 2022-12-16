@@ -1,6 +1,6 @@
 /**
- * Created by Sushant Gauchan
- * Email : sushant.gauchan11@gmail.com
+ * Created by Joshua Tamang,Sanish karki,Shiva Puri
+
 */
 /*-------------------------------------- Fonts Starts -------------------------------------*/
 /*--------------------------------------- Fonts Ends --------------------------------------*/
@@ -8,7 +8,7 @@
 /*-------------------------------------- Colors Ends --------------------------------------*/
 /*-------------------------------------- Mixins Starts ------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 .ex-flex {
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
@@ -248,4 +248,8 @@ button {
   bottom: 0;
   display: inline-block;
   background-color: #238B28;
+}
+
+.green-text {
+  color: #238B28;
 }/*# sourceMappingURL=global.css.map */

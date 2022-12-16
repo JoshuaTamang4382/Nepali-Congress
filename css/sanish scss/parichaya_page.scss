@@ -1,0 +1,31 @@
+#parichaya-page {
+  .introduction-section {
+    .common-details {
+      .text-container {
+        padding: 30px 40px;
+
+        p {
+          font-weight: 400;
+          margin-bottom: 24px;
+
+          &.green-text {
+            font-weight: 600;
+          }
+
+          &.bold-text {
+            font-weight: 700;
+
+            span {
+              margin-bottom: 30px;
+              display: inline-block;
+            }
+          }
+
+          &:nth-of-type(5) {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
