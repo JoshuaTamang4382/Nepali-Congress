@@ -8,6 +8,7 @@
 /*-------------------------------------- Mixins Starts ------------------------------------*/
 @import "sanish scss/parichaya_page.css";
 @import "sanish scss/karya_samati_page.css";
+@import "sanish scss/library_page.css";
 .ex-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -102,7 +103,7 @@ body.open-nav .nav-section {
   align-items: center;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li:first-of-type {
-  width: 20%;
+  width: 15%;
   position: relative;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li:first-of-type a {
@@ -636,17 +637,17 @@ body.open-nav .nav-section {
   border-radius: 50%;
 }
 .common-profile-wrapper .common-profile-item .inner .content {
-  padding-block: 8px;
+  padding-block: 15px;
   text-align: center;
 }
 .common-profile-wrapper .common-profile-item .inner .content h5 {
   font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 5px;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
 .common-profile-wrapper .common-profile-item .inner .content h6 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .common-profile-wrapper .common-profile-item .inner .social-link ul.social-container {
   display: flex;

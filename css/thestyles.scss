@@ -5,6 +5,7 @@
 @import "components/fonts_and_colors";
 @import "sanish scss/parichaya_page.css";
 @import "sanish scss/karya_samati_page.css";
+@import "sanish scss/library_page.css";
 
 /*------------------------------------ Mixins Starts -----------------------------------*/
 @mixin white-green {
@@ -63,7 +64,7 @@ body {
 
           &>li {
             &:first-of-type {
-              width: 20%;
+              width: 15%;
               position: relative;
 
               a {
@@ -830,18 +831,18 @@ body {
       }
 
       .content {
-        padding-block: 8px;
+        padding-block: 15px;
         text-align: center;
 
         h5 {
           font-size: 18px;
-          font-weight: 500;
-          margin-bottom: 5px;
+          font-weight: 400;
+          margin-bottom: 8px;
         }
 
         h6 {
           font-size: 18px;
-          font-weight: 700;
+          font-weight: 600;
         }
       }
 

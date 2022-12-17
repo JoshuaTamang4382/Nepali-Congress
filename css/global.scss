@@ -246,17 +246,26 @@ button {
     color: $green-color;
     position: relative;
 
+
     &:after {
       position: absolute;
       content: '';
       height: 2px;
-      width: 100%;
+      width: 0;
       left: 0;
       right: 0;
       bottom: 0;
       display: inline-block;
       background-color: $green-color;
+      transition: all 0.2s ease-in-out;
+    }
 
+    &:hover {
+      &::after {
+        content: '';
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+      }
     }
   }
 }

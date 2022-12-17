@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Created by PhpStorm.
+ * Created by VsCode.
  * User: Joshua Tamang,Sanish karki,Shiva Puri
- * Date: 5/9/2020
+ * Date: 12/17/2022
  * Time: 4:08 PM
  */
 include('header.php') ?>
@@ -16,11 +16,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_1.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>शेरबहादुर देउवा</h5>
-                            <h6>सभापति</h6>
+                            <h5>कृष्ण प्रसाद पौडेल</h5>
+                            <h6>मुख्य सचिव</h6>
                         </div>
 
                     </div>
@@ -30,11 +30,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_2.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>पूर्णबहादुर खड्का</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>डा. प्रदीप पराजुली</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -42,11 +42,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_3.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>धनराज गुरुङ</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>प्रकाश शर्मा</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -54,11 +54,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_4.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>पूर्णबहादुर खड्का</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>केशव रिजाल</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -66,11 +66,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_5.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>धनराज गुरुङ</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>प्रेम के.सी.</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -78,11 +78,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_6.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>पूर्णबहादुर खड्का</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>मुक्ति आचार्य</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -90,11 +90,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder//img_7.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>धनराज गुरुङ</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>कृष्णप्रसाद दुलाल</h5>
+                            <h6>सचिव</h6>
                         </div>
 
                     </div>
@@ -104,11 +104,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_8.jpg" alt="">
                         </div>
                         <div class="content">
                             <h5>पूर्णबहादुर खड्का</h5>
-                            <h6>उपसभापति</h6>
+                            <h6>सहसचिव</h6>
                         </div>
 
                     </div>
@@ -116,11 +116,11 @@ include('header.php') ?>
                 <div class="common-profile-item">
                     <div class="inner">
                         <div class="image-container">
-                            <img src="img/placeholder/con_1 2.png" alt="">
+                            <img src="img/placeholder/img_9.jpg" alt="">
                         </div>
                         <div class="content">
-                            <h5>धनराज गुरुङ</h5>
-                            <h6>उपसभापति</h6>
+                            <h5>अमृत कार्की</h5>
+                            <h6>वरिष्ठ प्राविधिक अधिकृत</h6>
                         </div>
 
                     </div>

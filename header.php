@@ -11,7 +11,9 @@
     <!------------------------ Meta Starts ---------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <title>Nepali Congress</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/congress_tree.png">
+
 
     <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
@@ -153,16 +155,16 @@
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">
-                                            <li><a href="#"> परिचय </a></li>
-                                            <li><a href="#"> केन्द्रीय कार्य समिति </a></li>
-                                            <li><a href="#"> केन्द्रिय कार्यालय </a></li>
+                                            <li><a href="parichaya_page.php"> परिचय </a></li>
+                                            <li><a href="karya_samati_page.php"> केन्द्रीय कार्य समिति </a></li>
+                                            <li><a href="central_office_page.php"> केन्द्रिय कार्यालय </a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#"> सबडोमेन </a>
                                     </li>
                                     <li>
-                                        <a href="#"> अनलाइन लाइब्रेरी </a>
+                                        <a href="library_page.php"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
                                         <a href="#"> बिधान | नियमावली
