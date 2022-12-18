@@ -34,7 +34,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <label>जिल्ला</label>
+                                        <label>प्रतिनिधिसभा नि.क्षे.नं.</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -44,7 +44,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <label>जिल्ला</label>
+                                        <label>प्रदेश सभा क्षेत्र</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -54,7 +54,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <label>जिल्ला</label>
+                                        <label>न.पा./गा.पा.</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -64,7 +64,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <label>जिल्ला</label>
+                                        <label>वडा नं.</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -74,7 +74,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <label>जिल्ला</label>
+                                        <label>Member Type</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -84,7 +84,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-12">
-                                        <button type="submit" class="btn btn-primary">Filter</button>
+                                        <button type="submit" class="common-btn">Filter</button>
                                     </div>
                                 </div>
                             </form>
@@ -96,9 +96,9 @@
                                 <img src="img/logo/congress.png" alt="">
                             </div>
                             <div class="text-container">
-                                <h3>नेपाली कांग्रेस केन्द्रिय निर्वाचन समिती द्वारा प्रकाशित </h3>
-                                <h1>नेपाली कांग्रेस</h1>
-                                <h2>कृयासिल सदस्यताको नामावली</h2>                        
+                                <h6>नेपाली कांग्रेस केन्द्रिय निर्वाचन समिती द्वारा प्रकाशित </h6>
+                                <h4>नेपाली कांग्रेस</h4>
+                                <h4>कृयासिल सदस्यताको नामावली</h4>                        
                             </div>
                             <div class="img-container">
                                 <img src="img/logo/congress.png" alt="">

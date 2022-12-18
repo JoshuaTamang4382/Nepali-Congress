@@ -159,13 +159,13 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#"> सबडोमेन </a>
+                                        <a href="subdomain_page.php"> सबडोमेन </a>
                                     </li>
                                     <li>
-                                        <a href="#"> अनलाइन लाइब्रेरी </a>
+                                        <a href="online_library_page.php"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
-                                        <a href="#"> बिधान | नियमावली
+                                        <a href="bidhan_page.php"> बिधान | नियमावली
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">

@@ -231,6 +231,16 @@ button {
   padding: 11px 34px;
 }
 
+.nav-tabs {
+  border: none;
+}
+.nav-tabs > .nav-link {
+  border: none;
+  border-radius: none;
+  font-size: 12px;
+  color: #000;
+}
+
 .read-more-btn {
   text-align: right;
 }
