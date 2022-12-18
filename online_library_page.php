@@ -5,7 +5,7 @@
         <div class="custom-container">
             <div class="text-container">
                 <div class="inner">
-                    <h1>कृयासिल सदस्यता</h1>
+                    <h5>कृयासिल सदस्यता</h5>
                     <p>गृहपृष्ठ कृयासिल सदस्यता</p>
                 </div>
             </div>
@@ -18,6 +18,7 @@
                 <div class="common-content-item">
                     <div class="search-title-box">
                         <input type="text" placeholder="शीर्षकबाट खोजी गर्नुहोस्">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
                     <div class="book-post-wrapper">
                         <div class="book-post-item">

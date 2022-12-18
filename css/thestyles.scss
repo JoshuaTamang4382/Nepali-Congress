@@ -571,6 +571,16 @@ body {
     }
   }
 
+  #parichaya-page{
+    .banner-section{
+      .image-section{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+
   #contact-page {
     .contact-section {
       .block-container {
@@ -730,6 +740,7 @@ body {
       }
       .common-tab-content-inner{
         padding: 60px 30px;
+        background-color: $approx-snow; 
         .nav-1-wrapper{
           display: flex;
           margin: 0 -100px;
@@ -770,10 +781,28 @@ body {
                         padding: 10px 30px;
                         text-align: center;
                         position: absolute;
-                        bottom: 0;
+                        bottom: -25%;
                         left: 0;
                         color: #fff;
                         background: rgba(103, 91, 91, 0.68);
+                        opacity: 0;
+                        transition: all .6s ease;
+                      }
+                    }
+                  }
+                  &:hover{
+                    .image-container{
+                      a{
+
+                        img{
+                          transform: scale(1.05);
+                          transition: all .8s ease;
+                        }
+                        .text-container{
+                          bottom: 0;
+                          opacity: 1;
+                          transition: all .6s ease;
+                        }
                       }
                     }
                   }
@@ -843,12 +872,19 @@ body {
       }
     }
     .search-title-box{
-      padding-bottom: 50px;
+      margin-bottom: 50px;
+      border: 1px solid $gray90;
+      display: flex;
+      align-items: center;
       input{
+        border: 0;
         width: 100%;
-        border: 1px solid $gray90;
         color: $gray90;
         padding: 10px 15px;
+        position: relative;
+      }
+      button{
+        padding: 10px;
       }
     }
     .book-post-wrapper{
@@ -1088,6 +1124,13 @@ body {
       height: 50vh;
       display: flex;
       align-items: center;
+      h5{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      p{
+        font-size: 14px;
+      }
     }
   }
 }

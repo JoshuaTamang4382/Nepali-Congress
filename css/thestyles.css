@@ -441,6 +441,9 @@ body.open-nav .nav-section {
 #content-wrapper #home-page .social-section .social-wrapper .social-item .inner .content iframe ._2p3a {
   width: 500px;
 }
+#content-wrapper #parichaya-page .banner-section .image-section img {
+  width: 100%;
+}
 #content-wrapper #contact-page .contact-section .block-container {
   display: flex;
   flex-wrap: wrap;
@@ -557,6 +560,7 @@ body.open-nav .nav-section {
 }
 #content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner {
   padding: 60px 30px;
+  background-color: #FBFBFB;
 }
 #content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper {
   display: flex;
@@ -603,10 +607,21 @@ body.open-nav .nav-section {
   padding: 10px 30px;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: -25%;
   left: 0;
   color: #fff;
   background: rgba(103, 91, 91, 0.68);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+#content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item .inner:hover .image-container a img {
+  transform: scale(1.05);
+  transition: all 0.8s ease;
+}
+#content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item .inner:hover .image-container a .text-container {
+  bottom: 0;
+  opacity: 1;
+  transition: all 0.6s ease;
 }
 #content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper nav {
   width: 20%;
@@ -662,13 +677,20 @@ body.open-nav .nav-section {
   padding-block: 30px;
 }
 #content-wrapper #online-library-page .search-title-box {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
 }
 #content-wrapper #online-library-page .search-title-box input {
+  border: 0;
   width: 100%;
-  border: 1px solid #E5E5E5;
   color: #E5E5E5;
   padding: 10px 15px;
+  position: relative;
+}
+#content-wrapper #online-library-page .search-title-box button {
+  padding: 10px;
 }
 #content-wrapper #online-library-page .book-post-wrapper {
   margin: -40px;
@@ -839,6 +861,13 @@ body.open-nav .nav-section {
   height: 50vh;
   display: flex;
   align-items: center;
+}
+.common-banner-section.small-height .text-container h5 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.common-banner-section.small-height .text-container p {
+  font-size: 14px;
 }
 
 .common-profile-wrapper {

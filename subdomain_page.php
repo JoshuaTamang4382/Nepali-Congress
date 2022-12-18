@@ -5,7 +5,7 @@
         <div class="custom-container">
             <div class="text-container">
                 <div class="inner">
-                    <h1>कृयासिल सदस्यता</h1>
+                    <h5>कृयासिल सदस्यता</h5>
                     <p>गृहपृष्ठ कृयासिल सदस्यता</p>
                 </div>
             </div>
