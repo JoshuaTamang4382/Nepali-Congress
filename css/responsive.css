@@ -276,7 +276,7 @@ span {
     display: block;
     width: 20px;
     height: 3px;
-    background-color: #238B28;
+    background-color: #fff;
     transition: all 0.5s ease-in-out;
   }
   #header-wrapper .bottom-header-section .bottom-header-container .logo-nav-wrapper .mobile-nav-toggle span:not(:last-of-type) {
@@ -556,18 +556,26 @@ span {
   #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item .common-blog-container .common-blog-item .image-container {
     width: 50%;
   }
+  #content-wrapper #home-page .button-section .button-wrapper ul {
+    margin: -10px;
+  }
+  #content-wrapper #home-page .button-section .button-wrapper ul li {
+    padding: 10px;
+  }
   #content-wrapper #home-page .button-section .button-wrapper ul li button {
     padding: 20px 10px;
     flex-direction: column;
   }
   #content-wrapper #home-page .button-section .button-wrapper ul li button span img {
-    width: 40px;
+    width: 30px;
   }
   #content-wrapper #home-page .social-section .social-wrapper {
     display: block;
+    margin: -20px;
   }
   #content-wrapper #home-page .social-section .social-wrapper .social-item {
     width: 100%;
+    padding: 20px;
   }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
@@ -595,6 +603,12 @@ span {
   .common-content-wrapper .common-content-item p {
     font-size: 13px;
     line-height: 28px;
+  }
+  .common-content-wrapper {
+    margin: -25px;
+  }
+  .common-content-wrapper .common-content-item {
+    padding: 25px;
   }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*-------------------------------------- Modal Starts -------------------------------------*/

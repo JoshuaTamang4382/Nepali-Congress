@@ -571,7 +571,7 @@
               display: block;
               width: 20px;
               height: 3px;
-              background-color: #238B28;
+              background-color: #fff;
               transition: all 0.5s ease-in-out;
 
               &:not(:last-of-type) {
@@ -1091,14 +1091,18 @@
       .button-section {
         .button-wrapper {
           ul {
+            margin: -10px;
+
             li {
+              padding: 10px;
+
               button {
                 padding: 20px 10px;
                 flex-direction: column;
 
                 span {
                   img {
-                    width: 40px;
+                    width: 30px;
                   }
                 }
               }
@@ -1109,11 +1113,12 @@
 
       .social-section {
         .social-wrapper {
-          // flex-wrap: wrap;
           display: block;
+          margin: -20px;
 
           .social-item {
             width: 100%;
+            padding: 20px;
           }
         }
       }
@@ -1179,6 +1184,14 @@
         font-size: 13px;
         line-height: 28px;
       }
+    }
+  }
+
+  .common-content-wrapper {
+    margin: -25px;
+
+    .common-content-item {
+      padding: 25px;
     }
   }
 

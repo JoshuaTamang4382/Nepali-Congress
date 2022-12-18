@@ -10,7 +10,7 @@
     <div class="top-footer-section">
         <div class="custom-container">
             <div class="logo-container">
-                <a href="">
+                <a href="index.php">
                     <img src="img/logo/logo.png" alt="">
                 </a>
             </div>
