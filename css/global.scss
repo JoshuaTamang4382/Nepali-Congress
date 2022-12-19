@@ -239,6 +239,16 @@ button {
   }
 }
 
+.nav-tabs{
+  border: none;
+  &>.nav-link{
+    border: none;
+    border-radius: none;
+    font-size: 12px;
+    color: #000;
+  }
+}
+
 .read-more-btn {
   text-align: right;
 

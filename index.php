@@ -45,38 +45,38 @@ include('header.php') ?>
                 </div>
                 <div class="profile-wrapper">
                     <div class="title">
-                        <h5>प्रदेश सभा</h5>
+                        <h5>केन्द्रिय कार्य समिति</h5>
                     </div>
                     <div class="common-profile-container">
                         <div class="inner">
                             <div class="image-container">
-                                <img src="img/placeholder/pradesh.png" alt="">
+                                <img src="img/placeholder/images.jpeg" alt="">
                             </div>
                             <div class="description">
-                                <h6>प्रदिप कुमार भण्डारी</h6>
-                                <h6>प्रदिप कुमार भण्डारी</h6>
+                                <h6>सभापति</h6>
+                                <h6>शेरबहादुर देउवा</h6>
                             </div>
                         </div>
                     </div>
                     <div class="common-profile-container">
                         <div class="inner">
                             <div class="image-container">
-                                <img src="img/placeholder/pradesh.png" alt="">
+                                <img src="img/placeholder/images.jpeg" alt="">
                             </div>
                             <div class="description">
-                                <h6>प्रदिप कुमार भण्डारी</h6>
-                                <h6>प्रदिप कुमार भण्डारी</h6>
+                                <h6>नेता</h6>
+                                <h6>रामचन्द्र पौडेल</h6>
                             </div>
                         </div>
                     </div>
                     <div class="common-profile-container">
                         <div class="inner">
                             <div class="image-container">
-                                <img src="img/placeholder/pradesh.png" alt="">
+                                <img src="img/placeholder/images.jpeg" alt="">
                             </div>
                             <div class="description">
-                                <h6>प्रदिप कुमार भण्डारी</h6>
-                                <h6>प्रदिप कुमार भण्डारी</h6>
+                                <h6>उपसभापति</h6>
+                                <h6>पूर्णबहादुर खड्का</h6>
                             </div>
                         </div>
                     </div>
