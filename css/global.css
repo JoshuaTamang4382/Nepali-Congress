@@ -263,10 +263,12 @@ button {
   border-radius: none;
   font-size: 12px;
   color: #000;
+  background-color: transparent;
 }
 
 .read-more-btn {
   text-align: right;
+  padding: 15px;
 }
 .read-more-btn button {
   color: #238B28;

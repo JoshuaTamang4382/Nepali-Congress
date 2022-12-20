@@ -5,8 +5,8 @@
     <div class="custom-container">
       <div class="text-container">
         <div class="inner">
-          <h5>दश्ताबेज</h5>
-          <p>गृहपृष्ठ दश्ताबेज</p>
+          <h5>परिपत्र</h5>
+          <p>गृहपृष्ठ परिपत्र</p>
         </div>
       </div>
     </div>
@@ -16,24 +16,20 @@
     <div class="custom-container">
       <div class="common-content-wrapper">
         <div class="common-content-item">
-          <div class="search-title-box">
-            <input type="text" placeholder="शीर्षकबाट खोजी गर्नुहोस्">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-          </div>
           <div class="book-post-wrapper">
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_4.jpg" alt="">
+                  <img src="img/books/books_6.JPG" alt="">
                 </div>
               </div>
               <div class=" book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">बुधबार २१, बैशाख २०७९</h6>
-                    <h6 class="title">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (संक्षिप्त संस्करण)</h6>
-                    <h6 class="description">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (संक्षिप्त संस्करण) </h6>
+                    <h6 class="date">मंगलबार २४, श्रावण २०७९</h6>
+                    <h6 class="title">परिपत्र— बधाई/शुभकामना तथा अभिमुखिकरण कार्यक्रम</h6>
+                    <h6 class="description">परिपत्र— बधाई/शुभकामना तथा अभिमुखिकरण कार्यक्रम</h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -48,7 +44,6 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
@@ -57,16 +52,16 @@
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_4.jpg" alt="">
+                  <img src="img/books/books_7.png" alt="">
                 </div>
               </div>
               <div class="book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">आइतबार ११, बैशाख २०७९</h6>
-                    <h6 class="title">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (विस्तृत)</h6>
-                    <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
+                    <h6 class="date">सोमबार १६, जेठ २०७९</h6>
+                    <h6 class="title">परिपत्र — पाँच दलीय गठबन्धनको २०७९ जेठ १६ गते बसेको बैठकको निर्णय</h6>
+                    <h6 class="description">परिपत्र — पाँच दलीय गठबन्धनको २०७९ जेठ १६ गते बसेको बैठकको निर्णय </h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -81,7 +76,6 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
@@ -90,16 +84,16 @@
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_5.jpg" alt="">
+                  <img src="img/books/books_7.png" alt="">
                 </div>
               </div>
               <div class="book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">मंगलबार ०१, चैत्र २०७८</h6>
-                    <h6 class="title">एमसिसी अनुदान सहायता सम्झौताः भ्रम र यथार्थ</h6>
-                    <h6 class="description">एमसिसी अनुदान सहायता सम्झौताः भ्रम र यथार्थ</h6>
+                    <h6 class="date">बुधबार १४, बैशाख २०७९</h6>
+                    <h6 class="title">परिपत्र — २०७९ वैशाख १४ गते बसेको पाँच दलीय गठबन्धनको निर्णय कार्यान्वयन सम्बन्धमा ।</h6>
+                    <h6 class="description">परिपत्र — २०७९ वैशाख १४ गते बसेको पाँच दलीय गठबन्धनको निर्णय कार्यान्वयन सम्बन्धमा । </h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -114,7 +108,6 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
@@ -123,16 +116,16 @@
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_4.jpg" alt="">
+                  <img src="img/books/books_6.JPG" alt="">
                 </div>
               </div>
               <div class=" book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">बुधबार २१, बैशाख २०७९</h6>
-                    <h6 class="title">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (संक्षिप्त संस्करण)</h6>
-                    <h6 class="description">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (संक्षिप्त संस्करण) </h6>
+                    <h6 class="date">मंगलबार २४, श्रावण २०७९</h6>
+                    <h6 class="title">परिपत्र— बधाई/शुभकामना तथा अभिमुखिकरण कार्यक्रम</h6>
+                    <h6 class="description">परिपत्र— बधाई/शुभकामना तथा अभिमुखिकरण कार्यक्रम</h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -147,7 +140,6 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
@@ -156,16 +148,16 @@
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_4.jpg" alt="">
+                  <img src="img/books/books_7.png" alt="">
                 </div>
               </div>
               <div class="book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">आइतबार ११, बैशाख २०७९</h6>
-                    <h6 class="title">नेपाली कांग्रेसको सङ्कल्प स्थानीय तह निर्वाचन — २०७९ (विस्तृत)</h6>
-                    <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
+                    <h6 class="date">सोमबार १६, जेठ २०७९</h6>
+                    <h6 class="title">परिपत्र — पाँच दलीय गठबन्धनको २०७९ जेठ १६ गते बसेको बैठकको निर्णय</h6>
+                    <h6 class="description">परिपत्र — पाँच दलीय गठबन्धनको २०७९ जेठ १६ गते बसेको बैठकको निर्णय </h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -180,7 +172,6 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
@@ -189,16 +180,16 @@
             <div class="book-post-item">
               <div class="book-post-sub-item">
                 <div class="image-container">
-                  <img src="img/books/books_5.jpg" alt="">
+                  <img src="img/books/books_7.png" alt="">
                 </div>
               </div>
               <div class="book-post-sub-item">
                 <div class="content">
                   <div class="text-container">
 
-                    <h6 class="date">मंगलबार ०१, चैत्र २०७८</h6>
-                    <h6 class="title">एमसिसी अनुदान सहायता सम्झौताः भ्रम र यथार्थ</h6>
-                    <h6 class="description">एमसिसी अनुदान सहायता सम्झौताः भ्रम र यथार्थ</h6>
+                    <h6 class="date">बुधबार १४, बैशाख २०७९</h6>
+                    <h6 class="title">परिपत्र — २०७९ वैशाख १४ गते बसेको पाँच दलीय गठबन्धनको निर्णय कार्यान्वयन सम्बन्धमा ।</h6>
+                    <h6 class="description">परिपत्र — २०७९ वैशाख १४ गते बसेको पाँच दलीय गठबन्धनको निर्णय कार्यान्वयन सम्बन्धमा । </h6>
                   </div>
                   <div class="view-social-container">
                     <ul>
@@ -213,12 +204,12 @@
                   <div class="button-wrapper">
                     <ul>
                       <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                      <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
         <div class="common-content-item">

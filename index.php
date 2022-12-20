@@ -579,7 +579,7 @@ include('header.php') ?>
                             <h5>Facebook</h5>
                         </div>
                         <div class="content">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnepalicongresshq%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                 </div>
@@ -587,6 +587,10 @@ include('header.php') ?>
                     <div class="inner">
                         <div class="title">
                             <h5>Twitter</h5>
+                        </div>
+                        <div class="content">
+                            <a class="twitter-timeline" data-width="520" data-height="497" data-theme="light" href="https://twitter.com/NepaliCongress?ref_src=twsrc%5Etfw">Tweets by NepaliCongress</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
                 </div>
@@ -596,7 +600,7 @@ include('header.php') ?>
                             <h5>नेपाली कांग्रेसको इतिहास</h5>
                         </div>
                         <div class="content">
-
+                            <iframe width="520" height="500" src="https://www.youtube.com/embed/BjpBBQfKuGw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

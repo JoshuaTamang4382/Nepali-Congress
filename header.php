@@ -180,13 +180,13 @@
                                         <a href="dastabej_page.php"> दस्ताबेज </a>
                                     </li>
                                     <li>
-                                        <a href="#"> परिपत्र </a>
+                                        <a href="paripatra_page.php"> परिपत्र </a>
                                     </li>
                                     <li>
                                         <a href="active_member.php"> कृयासिल सदस्यता </a>
                                     </li>
                                     <li>
-                                        <a href="#"> सामाजिक संजाल </a>
+                                        <a href="samajik_sanjal_page.php"> सामाजिक संजाल </a>
                                     </li>
                                     <li>
                                         <a href="#"> केन्द्रिय निर्वाचन समिति
