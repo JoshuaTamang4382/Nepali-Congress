@@ -177,7 +177,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#"> दस्ताबेज </a>
+                                        <a href="dastabej_page.php"> दस्ताबेज </a>
                                     </li>
                                     <li>
                                         <a href="#"> परिपत्र </a>
