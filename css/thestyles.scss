@@ -86,6 +86,11 @@ body {
                 }
               }
             }
+
+            marquee {
+              position: relative;
+              bottom: -5px;
+            }
           }
         }
       }
@@ -1112,6 +1117,64 @@ body {
       }
     }
   }
+
+  #matparinam-page {
+    .matparinam-section {
+      .common-image-wrapper {
+        .common-image-item {
+          .inner {
+            .image-container {
+              width: 500px;
+              height: auto;
+              display: flex;
+              margin: auto;
+              justify-content: center;
+
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #mahadibesan_namelist-page {
+    .mahadibesan_namelist-section {
+      .image-container {
+        max-width: 1100px;
+        margin: auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .text-container {
+        h5 {
+          font-size: 24px;
+          margin-bottom: 40px;
+          text-align: center;
+        }
+      }
+
+      .name-list-wrapper {
+        display: flex;
+        margin: -25px;
+
+        .name-list-item {
+          width: 50%;
+          padding: 25px;
+        }
+
+      }
+    }
+  }
 }
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -1875,9 +1938,20 @@ body {
 
   .slick-prev {
     left: 20px;
+    transition: all 0.4s ease-in-out;
 
     &:after {
-      background-image: url('../img/icons/left-arrow.svg');
+      content: '\f100 ';
+      color: #238B28;
+      font-size: 30px;
+      font-family: fontawesome;
+
+    }
+
+    &:hover {
+      &::after {
+        transition: all 0.4s ease-in-out;
+      }
     }
   }
 
@@ -1885,7 +1959,10 @@ body {
     right: 20px;
 
     &:after {
-      background-image: url('../img/icons/right-arrow.svg');
+      content: '\f101 ';
+      color: #238B28;
+      font-size: 30px;
+      font-family: fontawesome;
     }
   }
 

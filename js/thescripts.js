@@ -51,33 +51,16 @@ function sliderInit() {
     ],
   });
 
-  /*    $('.product-gallery-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.product-gallery-nav'
-        });
-    
-        $('.product-gallery-nav').slick({
-            slidesToShow: 5,
-            slidesToScroll: 5,
-            asNavFor: '.product-gallery-slider',
-            dots: false,
-            arrows: false,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-            ]
-        });*/
+  $('.matparinam-slider').slick({
+    arrows: true,
+    dots: false,
+    autoplay: true,
+    pauseOnHover: false,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 300,
+  });
 }
 //*********FOR HAMBURGER MENU
 function navInit() {

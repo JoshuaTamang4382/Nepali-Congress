@@ -193,11 +193,11 @@
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">
-                                            <li><a href="#"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
-                                            <li><a href="#"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
-                                            <li><a href="#"> सूचनाहरु </a></li>
-                                            <li><a href="#"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
-                                            <li><a href="#"> मत परिणाम </a></li>
+                                            <li><a href="matparinam_page.php"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
+                                            <li><a href="mahadibesan_namelist_page.php"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
+                                            <li><a href="suchana_page.php"> सूचनाहरु </a></li>
+                                            <li><a href="mahadibesan_firstnamelist_page.php"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
+                                            <li><a href="samajik_sanjal_page.php"> मत परिणाम </a></li>
                                             <li><a href="#"> निर्वाचन निर्देशिका २०७८ </a></li>
                                             <li><a href="#"> निर्वाचन अधिकृत लग - इन </a></li>
                                             <li><a href="#"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>

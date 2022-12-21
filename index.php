@@ -10,81 +10,6 @@ include('header.php') ?>
 
 <div id="home-page">
 
-    <section class="common-banner-section">
-        <div class="custom-container ">
-            <div class="banner-slider-profile-wrapper">
-                <div class="banner-slider">
-                    <div class="common-banner-item-wrapper">
-                        <div class="common-banner-item">
-                            <div class="image-container">
-                                <img src="img/background/banner 1.png">
-                            </div>
-                        </div>
-                        <div class="common-banner-item">
-                            <div class="text-container">
-                                <div class="inner">
-                                    <div class="date-container">
-                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
-                                    </div>
-                                    <div class="title">
-                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र संयुक्त अधिराज्यका प्रधानमन्त्री
-                                            बोरिस जोन्शोन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा</h5>
-                                    </div>
-                                    <div class="content">
-                                        <p> नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र अमेरिकी रास्ट्रपति जो बाइडेन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
-                                    </div>
-                                    <div class="banner-btn">
-                                        <button class="common-btn banner-btn">
-                                            सबै हेर्नुहोस्
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-wrapper">
-                    <div class="title">
-                        <h5>केन्द्रिय कार्य समिति</h5>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>सभापति</h6>
-                                <h6>शेरबहादुर देउवा</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>नेता</h6>
-                                <h6>रामचन्द्र पौडेल</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>उपसभापति</h6>
-                                <h6>पूर्णबहादुर खड्का</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="national-people-section">
         <div class="custom-container">
             <div class="section-title">
@@ -163,6 +88,81 @@ include('header.php') ?>
                         <div class="inner">
                             <div class="image-container flag">
                                 <img src="img/logo/congress.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="common-banner-section">
+        <div class="custom-container ">
+            <div class="banner-slider-profile-wrapper">
+                <div class="banner-slider">
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/banner 1.png">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र संयुक्त अधिराज्यका प्रधानमन्त्री
+                                            बोरिस जोन्शोन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p> नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र अमेरिकी रास्ट्रपति जो बाइडेन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-wrapper">
+                    <div class="title">
+                        <h5>केन्द्रिय कार्य समिति</h5>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>सभापति</h6>
+                                <h6>शेरबहादुर देउवा</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>नेता</h6>
+                                <h6>रामचन्द्र पौडेल</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>उपसभापति</h6>
+                                <h6>पूर्णबहादुर खड्का</h6>
                             </div>
                         </div>
                     </div>

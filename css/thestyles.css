@@ -120,6 +120,10 @@ body.open-nav .nav-section {
   color: #fff;
   line-height: 28.8px;
 }
+#header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li marquee {
+  position: relative;
+  bottom: -5px;
+}
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper {
   flex: 1;
   display: flex;
@@ -830,6 +834,40 @@ body.open-nav .nav-section {
   color: #238B28;
   transition: all 0.2s ease-in-out;
 }
+#content-wrapper #matparinam-page .matparinam-section .common-image-wrapper .common-image-item .inner .image-container {
+  width: 500px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+#content-wrapper #matparinam-page .matparinam-section .common-image-wrapper .common-image-item .inner .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .image-container {
+  max-width: 1100px;
+  margin: auto;
+}
+#content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .text-container h5 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper {
+  display: flex;
+  margin: -25px;
+}
+#content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper .name-list-item {
+  width: 50%;
+  padding: 25px;
+}
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
@@ -1374,15 +1412,25 @@ body.open-nav .nav-section {
 }
 .slick-slider .slick-prev {
   left: 20px;
+  transition: all 0.4s ease-in-out;
 }
 .slick-slider .slick-prev:after {
-  background-image: url("../img/icons/left-arrow.svg");
+  content: "\f100";
+  color: #238B28;
+  font-size: 30px;
+  font-family: fontawesome;
+}
+.slick-slider .slick-prev:hover::after {
+  transition: all 0.4s ease-in-out;
 }
 .slick-slider .slick-next {
   right: 20px;
 }
 .slick-slider .slick-next:after {
-  background-image: url("../img/icons/right-arrow.svg");
+  content: "\f101";
+  color: #238B28;
+  font-size: 30px;
+  font-family: fontawesome;
 }
 .slick-slider .slick-dots li {
   height: 13px;
