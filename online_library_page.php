@@ -30,15 +30,19 @@
                             <div class="book-post-sub-item">
                                 <div class="content">
                                     <div class="text-container">
-    
+
                                         <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
                                         <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
                                         <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
                                     </div>
                                     <div class="view-social-container">
                                         <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span><h6>1195</h6></li>
-                                            <li><span><i class="fa-light fa-share-nodes"></i></span><h6>share on Facebook</h6></li>
+                                            <li><span><i class="fa-solid fa-eye"></i></span>
+                                                <h6>1195</h6>
+                                            </li>
+                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
+                                                <h6>share on Facebook</h6>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="button-wrapper">
@@ -59,15 +63,19 @@
                             <div class="book-post-sub-item">
                                 <div class="content">
                                     <div class="text-container">
-    
+
                                         <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
                                         <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
                                         <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
                                     </div>
                                     <div class="view-social-container">
                                         <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span><h6>1195</h6></li>
-                                            <li><span><i class="fa-light fa-share-nodes"></i></span><h6>share on Facebook</h6></li>
+                                            <li><span><i class="fa-solid fa-eye"></i></span>
+                                                <h6>1195</h6>
+                                            </li>
+                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
+                                                <h6>share on Facebook</h6>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="button-wrapper">
@@ -88,15 +96,19 @@
                             <div class="book-post-sub-item">
                                 <div class="content">
                                     <div class="text-container">
-    
+
                                         <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
                                         <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
                                         <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
                                     </div>
                                     <div class="view-social-container">
                                         <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span><h6>1195</h6></li>
-                                            <li><span><i class="fa-light fa-share-nodes"></i></span><h6>share on Facebook</h6></li>
+                                            <li><span><i class="fa-solid fa-eye"></i></span>
+                                                <h6>1195</h6>
+                                            </li>
+                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
+                                                <h6>share on Facebook</h6>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="button-wrapper">

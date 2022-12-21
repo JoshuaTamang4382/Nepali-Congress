@@ -128,6 +128,60 @@ include('header.php') ?>
                             </div>
                         </div>
                     </div>
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/modi.jpg">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र भारतका प्रधानमन्त्री श्री नरेन्द्र मोदी जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र भारतका प्रधानमन्त्री श्री नरेन्द्र मोदी जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/constitution.jpg">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>संविधान जारी गरिरहँदाको गौरवमय क्षण</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p>संविधान जारी गरिरहँदाको गौरवमय क्षण </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="profile-wrapper">
                     <div class="title">

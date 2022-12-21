@@ -17,11 +17,11 @@ $(document).ready(function () {
 /*------------------------------- Functions Starts -------------------------------*/
 function sliderInit() {
   $('.common-banner-section .banner-slider').slick({
-    arrows: true,
+    arrows: false,
     dots: false,
-    autoplay: false,
-    speed: 500,
-    fade: true,
+    autoplay: true,
+    speed: 900,
+    fade: false,
     pauseOnHover: false,
     cssEase: 'linear',
     slidesToShow: 1,
