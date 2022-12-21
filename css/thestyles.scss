@@ -1032,6 +1032,84 @@ body {
         }
       }
 
+      .login-section {
+        .common-subdomain-wrapper {
+          max-width: 1000px;
+          margin: auto;
+
+          nav {
+            &.main-nav {
+              .nav-tabs {
+                &.login-nav-links {
+                  flex-wrap: nowrap;
+
+                  .nav-link {
+                    width: 33.33%;
+                    border: 2px solid #238B28;
+                  }
+                }
+              }
+            }
+          }
+
+          .tab-content {
+            .tab-pane {
+              .inner {
+                padding: 50px;
+
+                form {
+                  .form-row {
+                    .form-group {
+                      &:not(:last-of-type) {
+                        margin-bottom: 40px;
+                      }
+
+                      &:last-of-type {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                      }
+
+                      input {
+                        caret-color: #238B28;
+                        color: #238B28;
+
+                      }
+
+                      select {
+                        color: #238B28;
+                      }
+
+                      &.register-form-group {
+                        justify-content: start;
+                      }
+
+                    }
+
+                    .account-reset {
+                      width: 100%;
+
+                      a {
+                        color: #000;
+                        transition: all 0.2s ease-in-out;
+
+                        p {
+                          text-align: right;
+                        }
+
+                        &:hover {
+                          color: #238B28;
+                          transition: all 0.2s ease-in-out;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

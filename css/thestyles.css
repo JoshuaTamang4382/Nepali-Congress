@@ -784,6 +784,52 @@ body.open-nav .nav-section {
   text-align: center;
   line-height: 28px;
 }
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper nav.main-nav .nav-tabs.login-nav-links {
+  flex-wrap: nowrap;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper nav.main-nav .nav-tabs.login-nav-links .nav-link {
+  width: 33.33%;
+  border: 2px solid #238B28;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner {
+  padding: 50px;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group:last-of-type {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group input {
+  caret-color: #238B28;
+  color: #238B28;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group select {
+  color: #238B28;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group.register-form-group {
+  justify-content: start;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .account-reset {
+  width: 100%;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .account-reset a {
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .account-reset a p {
+  text-align: right;
+}
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .account-reset a:hover {
+  color: #238B28;
+  transition: all 0.2s ease-in-out;
+}
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
