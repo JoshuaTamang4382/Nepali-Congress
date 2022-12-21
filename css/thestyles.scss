@@ -764,11 +764,11 @@ body {
         .common-gallery-wrapper {
           display: flex;
           flex-wrap: wrap;
-          margin: -20px -40px;
+          margin: -15px -30px;
 
           .common-gallery-item {
             width: 25%;
-            padding: 20px 40px;
+            padding: 15px 30px;
 
             .inner {
               .image-container {
@@ -777,7 +777,7 @@ body {
                   position: relative;
                   overflow: hidden;
                   display: block;
-                  padding-bottom: 90%;
+                  padding-bottom: 70%;
 
                   img {
                     width: 100%;
@@ -1034,6 +1034,13 @@ body {
             text-align: center;
             line-height: 28px;
           }
+
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 28px;
+          }
         }
       }
 
@@ -1115,6 +1122,7 @@ body {
           }
         }
       }
+
     }
   }
 
@@ -1172,6 +1180,62 @@ body {
           padding: 25px;
         }
 
+      }
+    }
+  }
+
+  #nirdeshika-page {
+    .nirdeshika-section {
+      .text-section {
+        margin-bottom: 90px;
+
+        .inner {
+          padding-inline: 20px;
+
+          h6 {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 28px;
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 28px;
+          }
+        }
+      }
+
+      .dropdown-section {
+        max-width: 1000px;
+        margin: auto;
+
+        .form-row {
+          justify-content: center;
+        }
+      }
+
+    }
+  }
+
+  #nirbachan_adhikrit-page {
+    .nirbachan_adhikrit-section {
+      .login-section {
+        max-width: 1000px;
+        margin: auto;
+
+        .inner {
+          padding: 30px;
+
+          form {
+            .form-row {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
       }
     }
   }

@@ -59,6 +59,7 @@ function sliderInit() {
     cssEase: 'linear',
     slidesToShow: 1,
     slidesToScroll: 1,
+    fade: true,
     speed: 300,
   });
 }

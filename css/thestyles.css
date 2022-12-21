@@ -591,18 +591,18 @@ body.open-nav .nav-section {
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content .common-gallery-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: -20px -40px;
+  margin: -15px -30px;
 }
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item {
   width: 25%;
-  padding: 20px 40px;
+  padding: 15px 30px;
 }
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item .inner .image-container a {
   z-index: 0;
   position: relative;
   overflow: hidden;
   display: block;
-  padding-bottom: 90%;
+  padding-bottom: 70%;
 }
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item .inner .image-container a img {
   width: 100%;
@@ -788,6 +788,12 @@ body.open-nav .nav-section {
   text-align: center;
   line-height: 28px;
 }
+#content-wrapper #samajik_sanjal-page .samajik_sanjal-section .text-section .inner p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+}
 #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper {
   max-width: 1000px;
   margin: auto;
@@ -867,6 +873,42 @@ body.open-nav .nav-section {
 #content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper .name-list-item {
   width: 50%;
   padding: 25px;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .text-section {
+  margin-bottom: 90px;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .text-section .inner {
+  padding-inline: 20px;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .text-section .inner h6 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 28px;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .text-section .inner p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .dropdown-section {
+  max-width: 1000px;
+  margin: auto;
+}
+#content-wrapper #nirdeshika-page .nirdeshika-section .dropdown-section .form-row {
+  justify-content: center;
+}
+#content-wrapper #nirbachan_adhikrit-page .nirbachan_adhikrit-section .login-section {
+  max-width: 1000px;
+  margin: auto;
+}
+#content-wrapper #nirbachan_adhikrit-page .nirbachan_adhikrit-section .login-section .inner {
+  padding: 30px;
+}
+#content-wrapper #nirbachan_adhikrit-page .nirbachan_adhikrit-section .login-section .inner form .form-row {
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
