@@ -46,7 +46,8 @@
 #library-page .library-section .content-wrapper .books-section .books-listing-item .image-section img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #library-page .library-section .content-wrapper .books-section .books-listing-item .info-section {
   width: 82%;
