@@ -130,15 +130,17 @@ body.open-nav .nav-section {
   justify-content: flex-end;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper {
-  margin-right: 32px;
+  margin-right: 50px;
 }
-#header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper button {
-  display: flex;
-  align-items: center;
+#header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper ul li {
+  transition: all 0.3s ease-in-out;
+}
+#header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper ul li a {
   color: #fff;
 }
-#header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper button span {
-  margin-right: 8px;
+#header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .login-wrapper ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper .lang-wrapper ul li {
   display: inline-block;
@@ -339,7 +341,7 @@ body.open-nav .nav-section {
   color: #238B28;
 }
 #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .profile-wrapper .common-profile-container:not(:last-of-type) {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 #content-wrapper #home-page .national-people-section .section-title h4 {
   display: inline-block;
@@ -931,7 +933,7 @@ body.open-nav .nav-section {
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
 #footer-wrapper .top-footer-section {
-  background: #00BC46;
+  background: #75e59f;
 }
 #footer-wrapper .top-footer-section .custom-container .logo-container {
   margin-block: 50px;
@@ -998,7 +1000,7 @@ body.open-nav .nav-section {
   width: 50%;
 }
 .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .image-container {
-  height: 650px;
+  height: 885px;
 }
 .common-banner-section .banner-slider .common-banner-item-wrapper .common-banner-item .image-container img {
   height: 100%;

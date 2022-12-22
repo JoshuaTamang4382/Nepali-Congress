@@ -101,15 +101,20 @@ body {
         justify-content: flex-end;
 
         .login-wrapper {
-          margin-right: 32px;
+          margin-right: 50px;
 
-          button {
-            display: flex;
-            align-items: center;
-            color: #fff;
+          ul {
+            li {
+              transition: all 0.3s ease-in-out;
 
-            span {
-              margin-right: 8px;
+              a {
+                color: #fff;
+              }
+
+              &:hover {
+                transform: scale(1.1);
+                transition: all 0.3s ease-in-out;
+              }
             }
           }
         }
@@ -383,7 +388,7 @@ body {
             }
 
             &:not(:last-of-type) {
-              padding-bottom: 30px;
+              padding-bottom: 20px;
             }
           }
         }
@@ -1274,7 +1279,7 @@ body {
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
 #footer-wrapper {
   .top-footer-section {
-    background: #00BC46;
+    background: #75e59f;
 
     .custom-container {
       // padding: 112px 200px;
@@ -1381,7 +1386,7 @@ body {
         width: 50%;
 
         .image-container {
-          height: 650px;
+          height: 885px;
 
           img {
             height: 100%;
