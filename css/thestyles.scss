@@ -1239,6 +1239,33 @@ body {
       }
     }
   }
+
+  #maadhibesan_Final_namelist-page {
+    .maadhibesan_Final_namelist-section {
+      .image-container {
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 70px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .pdf-container {
+        .text-section {
+          margin-bottom: 20px;
+
+          h5 {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
 }
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/

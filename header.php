@@ -200,7 +200,7 @@
                                             <li><a href="samajik_sanjal_page.php"> मत परिणाम </a></li>
                                             <li><a href="election_directory_page.php"> निर्वाचन निर्देशिका २०७८ </a></li>
                                             <li><a href="nirbachan_adhikrit_page.php"> निर्वाचन अधिकृत लग - इन </a></li>
-                                            <li><a href="#"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
+                                            <li><a href="maadhibesan_Final_namelist_page.php"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
                                         </ul>
                                     </li>
                                 </ul>
