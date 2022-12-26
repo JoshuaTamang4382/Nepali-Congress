@@ -929,6 +929,190 @@ body.open-nav .nav-section {
   font-size: 22px;
   font-weight: 700;
 }
+#content-wrapper #niyamawali-page .common-content-item:last-of-type {
+  margin-block: -30px;
+}
+#content-wrapper #niyamawali-page .common-content-item:last-of-type .common-notice-container {
+  padding-block: 30px;
+}
+#content-wrapper #niyamawali-page .search-title-box {
+  margin-bottom: 50px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #niyamawali-page .search-title-box input {
+  border: 0;
+  width: 100%;
+  color: #238B28;
+  padding: 10px 15px;
+  position: relative;
+}
+#content-wrapper #niyamawali-page .search-title-box button {
+  padding: 10px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper {
+  margin: -40px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  margin: -10px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item {
+  padding: 10px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
+  width: 20%;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
+  width: 80%;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .image-container img {
+  width: 100%;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c4c4c4;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container h6 {
+  font-size: 16px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container h6:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container h6:first-of-type {
+  font-size: 14px;
+  color: #238B28;
+  font-weight: 400;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container h6:nth-of-type(2) {
+  padding-block: 16px;
+  font-weight: 600;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .text-container h6:last-of-type {
+  font-weight: 400;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .view-social-container {
+  padding-block: 14px 24px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .view-social-container ul {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .view-social-container ul li {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .view-social-container ul li:not(:last-of-type) {
+  margin-right: 32px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .view-social-container ul li span {
+  margin-right: 8px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .button-wrapper ul {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .button-wrapper ul li:not(:last-of-type) {
+  margin-right: 24px;
+}
+#content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .button-wrapper ul li button {
+  font-size: 14px;
+}
+#content-wrapper #party-bidhan-page .common-content-item:last-of-type {
+  margin-block: -30px;
+}
+#content-wrapper #party-bidhan-page .common-content-item:last-of-type .common-notice-container {
+  padding-block: 30px;
+}
+#content-wrapper #party-bidhan-page .search-title-box {
+  margin-bottom: 50px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #party-bidhan-page .search-title-box input {
+  border: 0;
+  width: 100%;
+  color: #238B28;
+  padding: 10px 15px;
+  position: relative;
+}
+#content-wrapper #party-bidhan-page .search-title-box button {
+  padding: 10px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper {
+  margin: -40px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  margin: -10px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item {
+  padding: 10px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
+  width: 20%;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
+  width: 80%;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .image-container img {
+  width: 100%;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c4c4c4;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container h6 {
+  font-size: 16px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container h6:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container h6:first-of-type {
+  font-size: 14px;
+  color: #238B28;
+  font-weight: 400;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container h6:nth-of-type(2) {
+  padding-block: 16px;
+  font-weight: 600;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .text-container h6:last-of-type {
+  font-weight: 400;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .view-social-container {
+  padding-block: 14px 24px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .view-social-container ul {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .view-social-container ul li {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .view-social-container ul li:not(:last-of-type) {
+  margin-right: 32px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .view-social-container ul li span {
+  margin-right: 8px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .button-wrapper ul {
+  display: flex;
+  align-items: center;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .button-wrapper ul li:not(:last-of-type) {
+  margin-right: 24px;
+}
+#content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .button-wrapper ul li button {
+  font-size: 14px;
+}
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/

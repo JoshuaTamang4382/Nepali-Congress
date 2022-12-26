@@ -168,13 +168,13 @@
                                         <a href="online_library_page.php"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
-                                        <a href="bidhan_page.php"> बिधान | नियमावली
+                                        <a href="#"> बिधान | नियमावली
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">
-                                            <li><a href="#"> नेपालको संबिधान </a></li>
-                                            <li><a href="#"> नियमावली </a></li>
-                                            <li><a href="#"> पार्टी विधान </a></li>
+                                            <li><a href="bidhan_page.php"> नेपालको संबिधान </a></li>
+                                            <li><a href="niyamawali_page.php"> नियमावली </a></li>
+                                            <li><a href="party-bidhan_page.php"> पार्टी विधान </a></li>
                                         </ul>
                                     </li>
                                     <li>
