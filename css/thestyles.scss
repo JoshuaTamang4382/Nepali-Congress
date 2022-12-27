@@ -101,15 +101,20 @@ body {
         justify-content: flex-end;
 
         .login-wrapper {
-          margin-right: 32px;
+          margin-right: 50px;
 
-          button {
-            display: flex;
-            align-items: center;
-            color: #fff;
+          ul {
+            li {
+              transition: all 0.3s ease-in-out;
 
-            span {
-              margin-right: 8px;
+              i {
+                color: #fff;
+                padding-right: 5px;
+              }
+
+              a {
+                color: #fff;
+              }
             }
           }
         }
@@ -383,7 +388,7 @@ body {
             }
 
             &:not(:last-of-type) {
-              padding-bottom: 30px;
+              padding-bottom: 20px;
             }
           }
         }
@@ -1239,6 +1244,293 @@ body {
       }
     }
   }
+
+  #maadhibesan_Final_namelist-page {
+    .maadhibesan_Final_namelist-section {
+      .image-container {
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 70px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .pdf-container {
+        .text-section {
+          margin-bottom: 20px;
+
+          h5 {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  #niyamawali-page {
+    .common-content-item {
+      &:last-of-type {
+        margin-block: -30px;
+
+        .common-notice-container {
+          padding-block: 30px;
+        }
+      }
+    }
+
+    .search-title-box {
+      margin-bottom: 50px;
+      border: 1px solid $gray90;
+      display: flex;
+      align-items: center;
+
+      input {
+        border: 0;
+        width: 100%;
+        color: #238B28;
+        padding: 10px 15px;
+        position: relative;
+      }
+
+      button {
+        padding: 10px;
+      }
+    }
+
+    .book-post-wrapper {
+      margin: -40px;
+
+      .book-post-item {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        margin: -10px;
+
+        .book-post-sub-item {
+          padding: 10px;
+
+          &:first-of-type {
+            width: 20%;
+          }
+
+          &:last-of-type {
+            width: 80%;
+          }
+        }
+
+        .image-container {
+          img {
+            width: 100%;
+          }
+        }
+
+        .content {
+          .text-container {
+            padding-bottom: 30px;
+            border-bottom: 1px solid #c4c4c4;
+
+            h6 {
+              font-size: 16px;
+
+              &:not(:last-of-type) {
+                margin-bottom: 16px;
+              }
+
+              &:first-of-type {
+                font-size: 14px;
+                color: #238B28;
+                font-weight: 400;
+              }
+
+              &:nth-of-type(2) {
+                padding-block: 16px;
+                font-weight: 600;
+              }
+
+              &:last-of-type {
+                font-weight: 400;
+              }
+            }
+          }
+
+          .view-social-container {
+            padding-block: 14px 24px;
+
+            ul {
+              display: flex;
+              align-items: center;
+
+              li {
+                display: flex;
+                align-items: center;
+
+                &:not(:last-of-type) {
+                  margin-right: 32px;
+                }
+
+                span {
+                  margin-right: 8px;
+                }
+
+              }
+            }
+          }
+
+          .button-wrapper {
+            ul {
+              display: flex;
+              align-items: center;
+
+              li {
+                &:not(:last-of-type) {
+                  margin-right: 24px;
+                }
+
+                button {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #party-bidhan-page {
+    .common-content-item {
+      &:last-of-type {
+        margin-block: -30px;
+
+        .common-notice-container {
+          padding-block: 30px;
+        }
+      }
+    }
+
+    .search-title-box {
+      margin-bottom: 50px;
+      border: 1px solid $gray90;
+      display: flex;
+      align-items: center;
+
+      input {
+        border: 0;
+        width: 100%;
+        color: #238B28;
+        padding: 10px 15px;
+        position: relative;
+      }
+
+      button {
+        padding: 10px;
+      }
+    }
+
+    .book-post-wrapper {
+      margin: -40px;
+
+      .book-post-item {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        margin: -10px;
+
+        .book-post-sub-item {
+          padding: 10px;
+
+          &:first-of-type {
+            width: 20%;
+          }
+
+          &:last-of-type {
+            width: 80%;
+          }
+        }
+
+        .image-container {
+          img {
+            width: 100%;
+          }
+        }
+
+        .content {
+          .text-container {
+            padding-bottom: 30px;
+            border-bottom: 1px solid #c4c4c4;
+
+            h6 {
+              font-size: 16px;
+
+              &:not(:last-of-type) {
+                margin-bottom: 16px;
+              }
+
+              &:first-of-type {
+                font-size: 14px;
+                color: #238B28;
+                font-weight: 400;
+              }
+
+              &:nth-of-type(2) {
+                padding-block: 16px;
+                font-weight: 600;
+              }
+
+              &:last-of-type {
+                font-weight: 400;
+              }
+            }
+          }
+
+          .view-social-container {
+            padding-block: 14px 24px;
+
+            ul {
+              display: flex;
+              align-items: center;
+
+              li {
+                display: flex;
+                align-items: center;
+
+                &:not(:last-of-type) {
+                  margin-right: 32px;
+                }
+
+                span {
+                  margin-right: 8px;
+                }
+
+              }
+            }
+          }
+
+          .button-wrapper {
+            ul {
+              display: flex;
+              align-items: center;
+
+              li {
+                &:not(:last-of-type) {
+                  margin-right: 24px;
+                }
+
+                button {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -1247,7 +1539,7 @@ body {
 /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
 #footer-wrapper {
   .top-footer-section {
-    background: #00BC46;
+    background: #75e59f;
 
     .custom-container {
       // padding: 112px 200px;
@@ -1354,7 +1646,7 @@ body {
         width: 50%;
 
         .image-container {
-          height: 650px;
+          height: 685px;
 
           img {
             height: 100%;
@@ -1544,6 +1836,7 @@ body {
     p {
       font-size: 14px;
       line-height: 24px;
+
     }
 
     .inner {

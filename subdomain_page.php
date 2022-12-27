@@ -24,7 +24,7 @@
                         <button class="nav-link" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5" type="button" role="tab" aria-controls="nav-5" aria-selected="false">केन्द्रीय नीति, अनुसन्धान तथा प्रशिक्षण प्रतिष्ठान</button>
                         <button class="nav-link" id="nav-6-tab" data-bs-toggle="tab" data-bs-target="#nav-6" type="button" role="tab" aria-controls="nav-6" aria-selected="false">केन्द्रीय निर्वाचन समिति</button>
                         <button class="nav-link" id="nav-7-tab" data-bs-toggle="tab" data-bs-target="#nav-7" type="button" role="tab" aria-controls="nav-7" aria-selected="false">संघीय संसदीय दल</button>
-                        <button class="nav-link" id="nav-8-tab" data-bs-toggle="tab" data-bs-target="#nav-8" type="button" role="tab" aria-controls="nav-8" aria-selected="false">प्रदेश सभा संसदीय दलहरु</button>
+                        <button class="nav-link for-margin-top" id="nav-8-tab" data-bs-toggle="tab" data-bs-target="#nav-8" type="button" role="tab" aria-controls="nav-8" aria-selected="false">प्रदेश सभा संसदीय दलहरु</button>
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">

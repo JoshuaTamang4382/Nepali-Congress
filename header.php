@@ -118,10 +118,12 @@
                         </div>
                         <div class="login-lang-wrapper">
                             <div class="login-wrapper">
-                                <button>
-                                    <span><img src="img/icons/user.png" alt=""></span>
-                                    लग - इन
-                                </button>
+                                <ul>
+                                    <li>
+                                        <i class="fa-sharp fa-solid fa-user"></i>
+                                        <a href="samajik_sanjal_page.php"> सामाजिक संजाल </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="lang-wrapper">
                                 <ul>
@@ -167,13 +169,13 @@
                                         <a href="online_library_page.php"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
-                                        <a href="bidhan_page.php"> बिधान | नियमावली
+                                        <a href="#"> बिधान | नियमावली
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">
-                                            <li><a href="#"> नेपालको संबिधान </a></li>
-                                            <li><a href="#"> नियमावली </a></li>
-                                            <li><a href="#"> पार्टी विधान </a></li>
+                                            <li><a href="bidhan_page.php"> नेपालको संबिधान </a></li>
+                                            <li><a href="niyamawali_page.php"> नियमावली </a></li>
+                                            <li><a href="party-bidhan_page.php"> पार्टी विधान </a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -185,9 +187,7 @@
                                     <li>
                                         <a href="active_member.php"> कृयासिल सदस्यता </a>
                                     </li>
-                                    <li>
-                                        <a href="samajik_sanjal_page.php"> सामाजिक संजाल </a>
-                                    </li>
+
                                     <li>
                                         <a href="#"> केन्द्रिय निर्वाचन समिति
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -200,7 +200,17 @@
                                             <li><a href="samajik_sanjal_page.php"> मत परिणाम </a></li>
                                             <li><a href="election_directory_page.php"> निर्वाचन निर्देशिका २०७८ </a></li>
                                             <li><a href="nirbachan_adhikrit_page.php"> निर्वाचन अधिकृत लग - इन </a></li>
-                                            <li><a href="#"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
+                                            <li><a href="maadhibesan_Final_namelist_page.php"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"> अरु मेनुहरु
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <ul class="dropdown-items">
+                                            <li><a href="#"> प्रतिनिसभा / प्रदेश सभस सदस्यहरु</a></li>
+                                            <li><a href="#"> प्रदेध सरकारमस पार्टीको‌ तर्फबाट नियुति भएको पदाधिकारीहरुको विवरण </a></li>
                                         </ul>
                                     </li>
                                 </ul>

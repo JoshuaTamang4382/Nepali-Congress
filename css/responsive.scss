@@ -55,6 +55,20 @@
         }
       }
     }
+
+    .top-header-section {
+      .news-login-lang-wrapper {
+        .news-wrapper {
+          >ul {
+            >li {
+              &:first-of-type {
+                width: 17%;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
@@ -71,12 +85,97 @@
             li {
               button {
                 padding: 15px 30px;
+
+                span {
+                  img {
+                    width: 25px;
+                  }
+                }
               }
             }
           }
         }
       }
     }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
   }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -124,22 +223,84 @@
     padding: 35px 70px;
   }
 
-  a {
-    font-size: 16px;
-  }
 
-  h5 {
-    font-size: 18px;
+  body {
+    font-size: 15px;
   }
 
   h4 {
     font-size: 17px;
   }
 
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 13px;
+  }
+
+
+  p {
+    font-size: 13px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  i {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
-  #header-wrapper {}
+  #header-wrapper {
+    .bottom-header-section {
+      .logo-nav-wrapper {
+        .logo-container {
+          a {
+            width: 165px;
+          }
+        }
+
+        .nav-container {
+          >ul {
+            >li {
+              .dropdown-items {
+                li {
+                  a {
+                    padding: 6px;
+                  }
+                }
+              }
+
+              &:last-of-type {
+                .dropdown-items {
+                  left: -75px;
+
+                  li {
+                    a {
+                      padding: 6px;
+                    }
+                  }
+
+                  &::after {
+                    left: 150px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 
@@ -172,7 +333,13 @@
           .nation-people-item {
             .inner {
               .image-container {
-                // width: 100px;
+                width: 110px;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
               }
             }
           }
@@ -191,7 +358,141 @@
         }
       }
 
+      .social-section {
+        .social-wrapper {
+          .social-item {
+            .inner {
+              .title {
+                h5 {
+                  font-size: 15px;
+                }
+              }
 
+              .content {
+
+                iframe {
+                  height: 400px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -208,6 +509,8 @@
       .common-banner-item-wrapper {
         .common-banner-item {
           .image-container {
+            height: 671px;
+
             img {
               object-fit: cover;
             }
@@ -229,6 +532,98 @@
     }
   }
 
+  .common-content-wrapper {
+    .common-content-item {
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .common-profile-wrapper {
+    margin: -15px -70px;
+
+    .common-profile-item {
+      padding: 15px 70px;
+
+      .inner {
+        .image-container {
+          height: 125px;
+          width: 125px;
+        }
+
+        .content {
+          h5 {
+            font-size: 15px;
+          }
+
+          h6 {
+            font-size: 14px;
+          }
+        }
+
+        .social-link {
+          ul.social-container {
+            li {
+              a {
+                span {
+                  font-size: 16px;
+
+                  i {
+                    padding: 7px 8px;
+                  }
+
+                  i.fa-facebook-f {
+                    padding: 7px 11px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .common-subdomain-wrapper {
+    nav.main-nav {
+      .nav-tabs {
+        >.nav-link {
+          &.for-margin-top {
+            margin-top: 5px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .common-btn {
+    padding: 6px 12px;
+  }
+
+  .common-content-wrapper {
+    .common-content-item {
+      &:last-of-type {
+        .common-detail {
+          .content {
+            iframe {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-pagination {
+    a {
+      padding: 4px 14px;
+    }
+  }
+
+
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*-------------------------------------- Modal Starts -------------------------------------*/
@@ -245,16 +640,36 @@
 @media all and (max-width: 1399px) {
 
   /*------------------------------------ Site Wide Starts -----------------------------------*/
-  h5 {
-    font-size: 16px;
+  body {
+    font-size: 14px;
   }
 
   h4 {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 13px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  i {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 12px;
   }
 
   /*------------------------------------- Site Wide Ends ------------------------------------*/
@@ -266,6 +681,8 @@
       .logo-nav-wrapper {
         .logo-container {
           a {
+            width: 220px;
+
             img {
               width: 80%;
             }

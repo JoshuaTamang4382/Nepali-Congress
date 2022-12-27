@@ -185,12 +185,12 @@ include('header.php') ?>
                 </div>
                 <div class="profile-wrapper">
                     <div class="title">
-                        <h5>केन्द्रिय कार्य समिति</h5>
+                        <h5>सभापति केन्द्रिय</h5>
                     </div>
                     <div class="common-profile-container">
                         <div class="inner">
                             <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
+                                <img src="img/placeholder/pradesh-1 1.png" alt="">
                             </div>
                             <div class="description">
                                 <h6>सभापति</h6>
@@ -198,25 +198,44 @@ include('header.php') ?>
                             </div>
                         </div>
                     </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>नेता</h6>
-                                <h6>रामचन्द्र पौडेल</h6>
+
+                    <div class="title">
+                        <h5> प्रदेश कार्य समिति</h5>
+                    </div>
+
+
+                    <div class="right-slider ">
+                        <div class="common-profile-container">
+                            <div class="inner">
+                                <div class="image-container">
+                                    <img src="img/placeholder/images.jpeg" alt="">
+                                </div>
+                                <div class="description">
+                                    <h6>नेता</h6>
+                                    <h6>रामचन्द्र पौडेल</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
+                        <div class="common-profile-container">
+                            <div class="inner">
+                                <div class="image-container">
+                                    <img src="img/placeholder/images.jpeg" alt="">
+                                </div>
+                                <div class="description">
+                                    <h6>उपसभापति</h6>
+                                    <h6>पूर्णबहादुर खड्का</h6>
+                                </div>
                             </div>
-                            <div class="description">
-                                <h6>उपसभापति</h6>
-                                <h6>पूर्णबहादुर खड्का</h6>
+                        </div>
+                        <div class="common-profile-container">
+                            <div class="inner">
+                                <div class="image-container">
+                                    <img src="img/placeholder/images.jpeg" alt="">
+                                </div>
+                                <div class="description">
+                                    <h6>उपसभापति</h6>
+                                    <h6>Bisheshowr koirala</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -342,7 +361,7 @@ include('header.php') ?>
                                             </div>
                                             <div class="text-container">
                                                 <div class="date-container">
-                                                    <p>शनिबार १6, कार्तिक २०७९</p>
+                                                    <p>मंगलबार १६, कार्तिक २०७८</p>
                                                 </div>
                                                 <div class="description">
                                                     <p>नेपाली कांग्रेसको सङ्कल्प प्रतिनिधि सभा र प्रदेश
