@@ -120,6 +120,7 @@
                             <div class="login-wrapper">
                                 <ul>
                                     <li>
+                                        <i class="fa-sharp fa-solid fa-user"></i>
                                         <a href="samajik_sanjal_page.php"> सामाजिक संजाल </a>
                                     </li>
                                 </ul>

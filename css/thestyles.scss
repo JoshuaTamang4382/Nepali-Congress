@@ -107,13 +107,13 @@ body {
             li {
               transition: all 0.3s ease-in-out;
 
-              a {
+              i {
                 color: #fff;
+                padding-right: 5px;
               }
 
-              &:hover {
-                transform: scale(1.1);
-                transition: all 0.3s ease-in-out;
+              a {
+                color: #fff;
               }
             }
           }
@@ -1646,7 +1646,7 @@ body {
         width: 50%;
 
         .image-container {
-          height: 885px;
+          height: 685px;
 
           img {
             height: 100%;
@@ -1836,6 +1836,7 @@ body {
     p {
       font-size: 14px;
       line-height: 24px;
+
     }
 
     .inner {

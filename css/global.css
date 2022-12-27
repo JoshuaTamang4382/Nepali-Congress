@@ -62,6 +62,13 @@
 }
 
 /*--------------------------------------- Mixins Ends -------------------------------------*/
+@font-face {
+  font-family: "Preeti";
+  src: url("../fonts/Preeti.woff") format("woff"), url("../fonts/Preeti.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   height: 100%;
 }
