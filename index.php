@@ -8,6 +8,7 @@
  */
 include('header.php') ?>
 
+
 <div id="home-page">
 
     <section class="national-people-section">
@@ -234,7 +235,7 @@ include('header.php') ?>
                                 </div>
                                 <div class="description">
                                     <h6>उपसभापति</h6>
-                                    <h6>Bisheshowr koirala</h6>
+                                    <h6>पूर्णबहादुर खड्का</h6>
                                 </div>
                             </div>
                         </div>
