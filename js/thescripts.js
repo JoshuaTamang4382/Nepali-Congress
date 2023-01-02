@@ -94,6 +94,17 @@ function navInit() {
     $('.mobile-nav-toggle').toggleClass('openToggle');
   });
 
+  $('.has-sub-menu > a').click(function (e) {
+    e.preventDefault();
+    if ($(this).parents('li').hasClass('open')) {
+      $('.has-sub-menu').removeClass('open');
+      $(this).parents('li').removeClass('open');
+    } else {
+      $('.has-sub-menu').removeClass('open');
+      $(this).parents('li').addClass('open');
+    }
+  });
+
   var scrollTop = 0;
   jQuery(window).scroll(function () {
     scrollTop = jQuery(window).scrollTop();

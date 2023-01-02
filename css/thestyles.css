@@ -288,6 +288,16 @@ body.open-nav .nav-section {
   line-height: 2.5em;
   color: #fff;
 }
+.nav-section .navigation ul li.open ul.sub-menu {
+  max-height: 300px;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
+.nav-section .navigation ul li ul.sub-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
 
 .mobile-nav-toggle {
   z-index: 12;

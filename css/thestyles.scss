@@ -318,6 +318,20 @@ body {
           line-height: 2.5em;
           color: #fff;
         }
+
+        &.open {
+          ul.sub-menu {
+            max-height: 300px;
+            overflow: hidden;
+            transition: all .8s ease;
+          }
+        }
+
+        ul.sub-menu {
+          max-height: 0;
+          overflow: hidden;
+          transition: all .8s ease;
+        }
       }
     }
   }
