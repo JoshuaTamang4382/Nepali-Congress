@@ -1,7 +1,8 @@
-
 /*-------------------------------------- Fonts Starts -------------------------------------*/
 $font-type-1: 'DM Sans', sans-serif;
 $font-type-2: 'Poppins', sans-serif;
+$font-type-3: "Preeti";
+
 /*--------------------------------------- Fonts Ends --------------------------------------*/
 
 
@@ -9,7 +10,7 @@ $font-type-2: 'Poppins', sans-serif;
 $primary-color: #02574f;
 $secondary-color: #FED304;
 
-$alizarin:#ED1B24;
+$alizarin: #ED1B24;
 
 $approx-snow: #FBFBFB;
 
@@ -24,7 +25,7 @@ $error-color: #e74c3c;
 /*-------------------------------------- Colors Ends --------------------------------------*/
 
 /*-------------------------------------- Mixins Starts ------------------------------------*/
-.ex-flex{
+.ex-flex {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -36,13 +37,14 @@ $error-color: #e74c3c;
   justify-content: flex-start;
 }
 
-.ex-flex-wrap{
+.ex-flex-wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
-.ex-vertical{
+
+.ex-vertical {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -50,7 +52,8 @@ $error-color: #e74c3c;
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.ex-transition{
+
+.ex-transition {
   -webkit-transition: all .6s ease;
   -moz-transition: all .6s ease;
   -ms-transition: all .6s ease;
@@ -58,18 +61,20 @@ $error-color: #e74c3c;
   transition: all .6s ease;
 }
 
-.ex-transition-medium{
+.ex-transition-medium {
   -webkit-transition: all 1.2s ease;
   -moz-transition: all 1.2s ease;
   -ms-transition: all 1.2s ease;
   -o-transition: all 1.2s ease;
   transition: all 1.2s ease;
 }
-.ex-transition-large{
+
+.ex-transition-large {
   -webkit-transition: all 1.8s ease;
   -moz-transition: all 1.8s ease;
   -ms-transition: all 1.8s ease;
   -o-transition: all 1.8s ease;
   transition: all 1.8s ease;
 }
+
 /*--------------------------------------- Mixins Ends -------------------------------------*/

@@ -8,6 +8,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+  font-family: 'Preeti';
+  src: url('../fonts/Preeti.woff') format('woff'),
+    url('../fonts/Preeti.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   height: 100%;
 }
@@ -30,6 +39,7 @@ body {
   right: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 a {

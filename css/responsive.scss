@@ -55,6 +55,20 @@
         }
       }
     }
+
+    .top-header-section {
+      .news-login-lang-wrapper {
+        .news-wrapper {
+          >ul {
+            >li {
+              &:first-of-type {
+                width: 17%;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
@@ -71,12 +85,97 @@
             li {
               button {
                 padding: 15px 30px;
+
+                span {
+                  img {
+                    width: 25px;
+                  }
+                }
               }
             }
           }
         }
       }
     }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 20px;
+
+              h6 {
+                &:nth-of-type(2) {
+                  padding-block: 10px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 12px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+
   }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -124,22 +223,84 @@
     padding: 35px 70px;
   }
 
-  a {
-    font-size: 16px;
-  }
 
-  h5 {
-    font-size: 18px;
+  body {
+    font-size: 15px;
   }
 
   h4 {
     font-size: 17px;
   }
 
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 13px;
+  }
+
+
+  p {
+    font-size: 13px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  i {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
-  #header-wrapper {}
+  #header-wrapper {
+    .bottom-header-section {
+      .logo-nav-wrapper {
+        .logo-container {
+          a {
+            width: 165px;
+          }
+        }
+
+        .nav-container {
+          >ul {
+            >li {
+              .dropdown-items {
+                li {
+                  a {
+                    padding: 6px;
+                  }
+                }
+              }
+
+              &:last-of-type {
+                .dropdown-items {
+                  left: -75px;
+
+                  li {
+                    a {
+                      padding: 6px;
+                    }
+                  }
+
+                  &::after {
+                    left: 150px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 
@@ -172,7 +333,17 @@
           .nation-people-item {
             .inner {
               .image-container {
-                // width: 100px;
+                width: 110px;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+
+                &.flag {
+                  width: 75px;
+                }
               }
             }
           }
@@ -191,7 +362,141 @@
         }
       }
 
+      .social-section {
+        .social-wrapper {
+          .social-item {
+            .inner {
+              .title {
+                h5 {
+                  font-size: 15px;
+                }
+              }
 
+              .content {
+
+                iframe {
+                  height: 400px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 12px;
+
+              h6 {
+                font-size: 14px;
+
+                &:first-of-type {
+                  font-size: 12px;
+                }
+
+                &:not(:last-of-type) {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 12px 10px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -208,6 +513,8 @@
       .common-banner-item-wrapper {
         .common-banner-item {
           .image-container {
+            height: 671px;
+
             img {
               object-fit: cover;
             }
@@ -229,6 +536,98 @@
     }
   }
 
+  .common-content-wrapper {
+    .common-content-item {
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .common-profile-wrapper {
+    margin: -15px -70px;
+
+    .common-profile-item {
+      padding: 15px 70px;
+
+      .inner {
+        .image-container {
+          height: 125px;
+          width: 125px;
+        }
+
+        .content {
+          h5 {
+            font-size: 15px;
+          }
+
+          h6 {
+            font-size: 14px;
+          }
+        }
+
+        .social-link {
+          ul.social-container {
+            li {
+              a {
+                span {
+                  font-size: 16px;
+
+                  i {
+                    padding: 7px 8px;
+                  }
+
+                  i.fa-facebook-f {
+                    padding: 7px 11px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .common-subdomain-wrapper {
+    nav.main-nav {
+      .nav-tabs {
+        >.nav-link {
+          &.for-margin-top-8 {
+            margin-top: 5px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .common-btn {
+    padding: 6px 12px;
+  }
+
+  .common-content-wrapper {
+    .common-content-item {
+      &:last-of-type {
+        .common-detail {
+          .content {
+            iframe {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-pagination {
+    a {
+      padding: 4px 14px;
+    }
+  }
+
+
   /*------------------------------------ Components Ends ------------------------------------*/
 
   /*-------------------------------------- Modal Starts -------------------------------------*/
@@ -245,16 +644,36 @@
 @media all and (max-width: 1399px) {
 
   /*------------------------------------ Site Wide Starts -----------------------------------*/
-  h5 {
-    font-size: 16px;
+  body {
+    font-size: 14px;
   }
 
   h4 {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 13px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  i {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 12px;
   }
 
   /*------------------------------------- Site Wide Ends ------------------------------------*/
@@ -266,6 +685,8 @@
       .logo-nav-wrapper {
         .logo-container {
           a {
+            width: 220px;
+
             img {
               width: 80%;
             }
@@ -302,19 +723,23 @@
             font-size: 18px;
           }
         }
-      }
 
-      .national-people-wrapper {
-        .nation-people-item {
-          .inner {
-            .image-container {
-              img {
-                // width: 100%;
+        .national-people-wrapper {
+          .nation-people-item {
+            .inner {
+              .image-container {
+                width: 100px;
+
+                &.flag {
+                  width: 70px;
+                }
+
               }
             }
           }
         }
       }
+
 
       .button-section {
         .button-wrapper {
@@ -328,7 +753,120 @@
         }
       }
 
+      .social-section {
+        .social-wrapper {
+          .social-item {
+            .inner {
+              .content {
+                iframe {
+                  height: 380px !important;
+                }
+              }
+            }
+          }
+        }
+      }
     }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 9px;
+
+              h6 {
+                &:not(:last-of-type) {
+                  margin-bottom: 8px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 9px 8px;
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 9px;
+
+              h6 {
+                &:not(:last-of-type) {
+                  margin-bottom: 8px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 9px 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 9px;
+
+              h6 {
+                &:not(:last-of-type) {
+                  margin-bottom: 8px;
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 9px 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #mahadibesan_namelist-page {
+      .mahadibesan_namelist-section {
+        .image-container {
+          max-width: 1000px;
+        }
+
+        .text-container {
+          h5 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    #maadhibesan_Final_namelist-page {
+      .maadhibesan_Final_namelist-section {
+        .image-container {
+          max-width: 700px;
+        }
+      }
+    }
+
+
   }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -351,7 +889,55 @@
         }
       }
     }
+
+    &.small-height {
+      .text-container {
+        h5 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
   }
+
+  .common-profile-wrapper {
+    .common-profile-item {
+      .inner {
+        .image-container {
+          height: 120px;
+          width: 120px;
+        }
+
+        .content {
+          h5 {
+            font-size: 14px;
+          }
+
+          h6 {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+  .common-content-wrapper {
+    .common-content-item {
+      &:last-of-type {
+        .common-detail {
+          .content {
+            iframe {
+              height: 380px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
 
   /*------------------------------------ Components Ends ------------------------------------*/
 
@@ -369,13 +955,37 @@
 @media all and (max-width: 1300px) {
 
   /*------------------------------------ Site Wide Starts -----------------------------------*/
-  h5 {
+
+  body {
+    font-size: 13px;
+  }
+
+  h4 {
     font-size: 15px;
   }
 
-  p {
+  h5 {
+    font-size: 13px;
+  }
 
-    margin-bottom: 12px;
+  h6 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 13px;
+  }
+
+  i {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 12px;
   }
 
   /*------------------------------------- Site Wide Ends ------------------------------------*/
@@ -448,6 +1058,20 @@
             font-size: 16px;
           }
         }
+
+        .national-people-wrapper {
+          .nation-people-item {
+            .inner {
+              .image-container {
+                width: 85px;
+
+                &.flag {
+                  width: 60px;
+                }
+              }
+            }
+          }
+        }
       }
 
       .savapati-sandesh-section {
@@ -472,6 +1096,167 @@
 
     }
 
+    #subdomain-page {
+      .nav-1-wrapper {
+        .tab-content {
+          width: 75%;
+        }
+
+        nav {
+          width: 25%;
+        }
+      }
+    }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 7px;
+
+              h6 {
+                font-size: 13px;
+
+                &:nth-of-type(2) {
+                  padding-block: 6px;
+                }
+              }
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 7px 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 7px;
+
+              h6 {
+                font-size: 13px;
+
+                &:nth-of-type(2) {
+                  padding-block: 6px;
+                }
+              }
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 7px 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          .content {
+            .text-container {
+              padding-bottom: 7px;
+
+              h6 {
+                font-size: 13px;
+
+                &:nth-of-type(2) {
+                  padding-block: 6px;
+                }
+              }
+            }
+
+            .button-wrapper {
+              ul {
+                li {
+                  button {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+
+            .view-social-container {
+              padding-block: 7px 8px;
+            }
+          }
+        }
+      }
+    }
+
+    #mahadibesan_namelist-page {
+      .mahadibesan_namelist-section {
+        .image-container {
+          max-width: 900px;
+        }
+      }
+    }
+
+    #maadhibesan_Final_namelist-page {
+      .maadhibesan_Final_namelist-section {
+        .image-container {
+          max-width: 600px;
+        }
+
+        .pdf-container {
+          .text-section {
+            h5 {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    #samajik_sanjal-page {
+      .samajik_sanjal-section {
+        .text-section {
+          margin-bottom: 70px;
+
+          .inner {
+            padding-inline: 50px;
+
+            h6 {
+              font-size: 15px;
+              font-weight: 600;
+            }
+          }
+        }
+
+        .login-section {
+          .common-subdomain-wrapper {
+            max-width: 900px;
+          }
+        }
+      }
+    }
+
   }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -488,7 +1273,7 @@
       .common-banner-item-wrapper {
         .common-banner-item {
           .image-container {
-            height: 580px;
+            height: 435px;
           }
         }
       }
@@ -501,6 +1286,47 @@
         font-size: 13px;
       }
     }
+  }
+
+  .common-profile-wrapper {
+    .common-profile-item {
+      .inner {
+        .content {
+          h5 {
+            font-size: 13px;
+          }
+
+          h6 {
+            font-size: 12px;
+          }
+        }
+
+        .image-container {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  .common-subdomain-wrapper {
+    nav.main-nav {
+      .nav-tabs {
+        >.nav-link.for-margin-top-7 {
+          margin-top: 5px;
+        }
+
+        &.login-nav-links {
+          .nav-link {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .common-btn {
+    padding: 4px 10px;
   }
 
 
@@ -519,14 +1345,25 @@
 @media all and (max-width: 1199px) {
 
   /*------------------------------------ Site Wide Starts -----------------------------------*/
-  h5,
-  h6 {
-    font-size: 13px;
+  // h5,
+  // h6 {
+  //   font-size: 13px;
+  // }
+
+  // a,
+  // span {
+  //   font-size: 15px;
+  // }
+  .custom-container {
+    padding: 30px 60px;
   }
 
-  a,
-  span {
-    font-size: 15px;
+  h5 {
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 12px;
   }
 
   /*------------------------------------- Site Wide Ends ------------------------------------*/
@@ -539,15 +1376,30 @@
           &>ul {
             &>li {
               &:first-of-type {
-                width: 30%;
+                width: 21%;
               }
 
               &:last-of-type {
-                width: 70%;
+                width: 79%;
               }
             }
           }
         }
+
+        .login-lang-wrapper {
+          .lang-wrapper {
+            ul {
+              li {
+                font-size: 12px;
+
+                &:nth-of-type(2) {
+                  margin-inline: 3px;
+                }
+              }
+            }
+          }
+        }
+
       }
     }
 
@@ -556,8 +1408,16 @@
         display: none;
       }
 
+      .logo-nav-wrapper {
+        .logo-container {
+          a {
+            width: 200px;
+          }
+        }
+      }
+
       .bottom-header-container {
-        padding-block: 25px;
+        padding-block: 12px;
 
         .logo-nav-wrapper {
           justify-content: space-between;
@@ -617,6 +1477,11 @@
           .profile-wrapper {
             padding: 20px;
 
+            .title {
+              padding-block: 7px;
+              margin-bottom: 6px;
+            }
+
             .common-profile-container {
               .inner {
                 padding: 24px 9px;
@@ -628,6 +1493,14 @@
               }
             }
           }
+
+          .common-banner-item-wrapper {
+            .common-banner-item {
+              .image-container {
+                height: 418px;
+              }
+            }
+          }
         }
       }
 
@@ -635,10 +1508,13 @@
         .national-people-wrapper {
           .nation-people-item {
             .inner {
-              width: 73px;
 
               .image-container {
-                width: 85px;
+                width: 75px;
+
+                &.flag {
+                  width: 55px;
+                }
               }
             }
           }
@@ -650,21 +1526,50 @@
           ul {
             li {
               button {
-                flex-direction: column;
-                padding: 10px 25px;
+                padding: 3px 7px;
 
                 span {
                   margin-right: 0;
                   margin-bottom: 5px;
 
                   img {
-                    width: 75%;
+                    width: 55%;
                   }
                 }
 
                 a {
                   // font-size: 15px;
                   color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .savapati-sandesh-section {
+        .image-text-container {
+          .text-container {
+            width: 65%;
+          }
+
+          .image-container {
+            width: 35%;
+          }
+        }
+      }
+
+      .social-section {
+        .social-wrapper {
+          margin: -15px;
+
+          .social-item {
+            padding: 15px;
+
+            .inner {
+              .content {
+                iframe {
+                  height: 350px !important;
                 }
               }
             }
@@ -681,12 +1586,20 @@
     .top-footer-section {
       .custom-container {
         .logo-container {
-          margin-block: 35px;
+          margin-block: 26px;
+
+          a {
+            img {
+              width: 160px;
+            }
+          }
         }
 
         .top-footer-wrapper {
+          margin: 0px -15px;
+
           .top-footer-item {
-            width: 30%;
+            padding: 0 15px;
 
             .inner {
               .title {
@@ -696,27 +1609,53 @@
               .content {
                 ul {
                   li {
+                    padding-bottom: 5px;
+
                     &:not(:last-of-type) {
                       margin-bottom: 0px;
                     }
                   }
                 }
               }
+
+              .social-link-container {
+                ul {
+                  li {
+                    a {
+                      span {
+                        width: 25px;
+                        height: 25px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            &:nth-of-type(1) {
+              width: 40%;
+            }
+
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(4) {
+              width: 20%;
             }
           }
         }
       }
     }
 
+    .bottom-footer-section {
+      .custom-container {
+        padding-block: 4px;
+      }
+    }
   }
 
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
 
   /*----------------------------------- Components Starts -----------------------------------*/
-  .common-btn.banner-btn {
-    padding: 7px;
-    font-size: 15px;
-  }
 
   .common-content-wrapper {
     display: block;
@@ -745,10 +1684,20 @@
       }
 
       p {
-        font-size: 14px;
+        font-size: 13px;
       }
     }
   }
+
+  .common-btn.banner-btn {
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .common-btn {
+    padding: 6px 10px;
+  }
+
 
 
   /*------------------------------------ Components Ends ------------------------------------*/

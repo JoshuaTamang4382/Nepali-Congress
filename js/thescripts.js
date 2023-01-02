@@ -19,7 +19,7 @@ function sliderInit() {
   $('.common-banner-section .banner-slider').slick({
     arrows: false,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     speed: 900,
     fade: false,
     pauseOnHover: false,
@@ -61,6 +61,30 @@ function sliderInit() {
     slidesToScroll: 1,
     fade: true,
     speed: 300,
+  });
+
+  $('.right-slider').slick({
+    arrows: false,
+    dots: false,
+    vertical: true,
+    autoplay: true,
+    verticalswiping: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          vertical: true,
+          autoplay: true,
+          arrows: false,
+          dots: false,
+        },
+      },
+    ],
   });
 }
 //*********FOR HAMBURGER MENU
