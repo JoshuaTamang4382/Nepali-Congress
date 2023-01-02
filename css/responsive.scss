@@ -1,8 +1,6 @@
 /**
  * Created by Joshua Tamang,Sanish karki,Shiva Puri
-
 @import "components/fonts_and_colors";
-
 /*------------------------------------ Site Wide Starts -----------------------------------*/
 /*------------------------------------- Site Wide Ends ------------------------------------*/
 
@@ -1355,7 +1353,7 @@
   //   font-size: 15px;
   // }
   .custom-container {
-    padding: 30px 60px;
+    padding: 30px 70px;
   }
 
   h5 {
@@ -1424,12 +1422,15 @@
 
           .mobile-nav-toggle {
             display: block;
+            background-color: #fff;
+            padding: 13px 6px;
+            border-radius: 50%;
 
             span {
               display: block;
               width: 20px;
               height: 3px;
-              background-color: #00BC46;
+              background-color: #238B28;
               transition: all 0.5s ease-in-out;
 
               &:not(:last-of-type) {
@@ -1440,13 +1441,13 @@
             &.openToggle {
               span {
                 &:first-of-type {
-                  background-color: aliceblue;
+                  background-color: #238B28;
                   margin: 0;
                   transform: translateY(1px) rotate(45deg);
                 }
 
                 &:last-of-type {
-                  background-color: aliceblue;
+                  background-color: #238B28;
                   transform: translateY(-2px) rotate(-45deg);
                 }
               }
@@ -1459,6 +1460,64 @@
   }
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  .nav-section {
+
+
+    .navigation {
+      padding: 95px 60px;
+
+      ul {
+        li {
+          a {
+            position: relative;
+            transition: all 0.4s ease;
+
+            i {
+              padding-left: 12px;
+              font-size: 15px;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+            }
+
+            &::after {
+              content: "";
+              height: 2px;
+              width: 0;
+              background-color: #fff;
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              transition: all 0.4s ease;
+              z-index: 1;
+              border-radius: 10px;
+            }
+
+            &:hover {
+              color: #fff;
+              padding-left: 32px;
+              transition: all 0.4s ease;
+              font-weight: 600;
+
+              &::after {
+                width: 25px;
+                transition: all 0.4s ease;
+              }
+            }
+          }
+
+          ul.sub-menu {
+            li {
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*----------------------------------- Navigation Starts -----------------------------------*/
   /*------------------------------------ Navigation Ends ------------------------------------*/
@@ -1698,6 +1757,24 @@
     padding: 6px 10px;
   }
 
+  .common-profile-wrapper {
+    .common-profile-item {
+      padding: 15px 40px;
+
+      .inner {
+        .image-container {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+
+    &.central-office {
+      .common-profile-item {
+        padding: 17px;
+      }
+    }
+  }
 
 
   /*------------------------------------ Components Ends ------------------------------------*/
@@ -1992,6 +2069,8 @@
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
 
   /*----------------------------------- Navigation Starts -----------------------------------*/
+
+
   /*------------------------------------ Navigation Ends ------------------------------------*/
 
   /*-------------------------------- Content Wrapper Starts ---------------------------------*/
@@ -2038,18 +2117,14 @@
       .button-section {
         .button-wrapper {
           ul {
-            margin: -10px;
-
             li {
-              padding: 10px;
-
               button {
                 padding: 20px 10px;
                 flex-direction: column;
 
                 span {
                   img {
-                    width: 30px;
+                    width: 40px;
                   }
                 }
               }
@@ -2060,12 +2135,11 @@
 
       .social-section {
         .social-wrapper {
+          // flex-wrap: wrap;
           display: block;
-          margin: -20px;
 
           .social-item {
             width: 100%;
-            padding: 20px;
           }
         }
       }
@@ -2131,14 +2205,6 @@
         font-size: 13px;
         line-height: 28px;
       }
-    }
-  }
-
-  .common-content-wrapper {
-    margin: -25px;
-
-    .common-content-item {
-      padding: 25px;
     }
   }
 

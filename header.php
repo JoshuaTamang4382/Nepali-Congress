@@ -237,13 +237,13 @@
             <div class="navigation">
 
                 <ul class="menu-wrapper">
-                    <li><a href="#"> हाम्रो बारेमा </a></li>
-                    <li><a href="#"> सबडोमेन </a></li>
-                    <li><a href="#"> अनलाइन लाइब्रेरी </a></li>
-                    <li><a href="#"> बिधान | नियमावली </a></li>
-                    <li><a href="#"> दस्ताबेज </a></li>
-                    <li><a href="#"> परिपत्र </a></li>
-                    <li><a href="#"> कृयासिल सदस्यता </a></li>
+                    <li><a href="parichaya_page.php"> हाम्रो बारेमा </a></li>
+                    <li><a href="subdomain_page.php"> सबडोमेन </a></li>
+                    <li><a href="online_library_page.php"> अनलाइन लाइब्रेरी </a></li>
+                    <li><a href="bidhan_page.php"> बिधान | नियमावली </a></li>
+                    <li><a href="dastabej_page.php"> दस्ताबेज </a></li>
+                    <li><a href="paripatra_page.php"> परिपत्र </a></li>
+                    <li><a href="active_member.php"> कृयासिल सदस्यता </a></li>
                     <li><a href="#"> सामाजिक संजाल </a></li>
                     <li><a href="#"> केन्द्रिय निर्वाचन समिति </a></li>
                 </ul>

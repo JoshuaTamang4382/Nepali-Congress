@@ -262,6 +262,16 @@ body.open-nav .nav-section {
   line-height: 2.5em;
   color: #fff;
 }
+.nav-section .navigation ul li.open ul.sub-menu {
+  max-height: 300px;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
+.nav-section .navigation ul li ul.sub-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
 
 .mobile-nav-toggle {
   z-index: 12;
@@ -559,13 +569,8 @@ body.open-nav .nav-section {
   display: flex;
   margin: 0 -100px;
 }
-<<<<<<< HEAD
-#content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper nav,
-#content-wrapper #subdomain-page .subdomain-wrapper .common-tab-content-inner .nav-1-wrapper .tab-content {
-=======
 #content-wrapper #subdomain-page .nav-1-wrapper nav,
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content {
->>>>>>> 963c997ed3200271295e18db79d7e838e15db23a
   padding: 0 100px;
 }
 #content-wrapper #subdomain-page .nav-1-wrapper .tab-content {
@@ -905,7 +910,8 @@ body.open-nav .nav-section {
 #content-wrapper #maadhibesan_Final_namelist-page .maadhibesan_Final_namelist-section .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #content-wrapper #maadhibesan_Final_namelist-page .maadhibesan_Final_namelist-section .pdf-container .text-section {
   margin-bottom: 20px;
