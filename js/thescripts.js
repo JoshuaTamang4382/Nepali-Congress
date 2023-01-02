@@ -71,7 +71,20 @@ function sliderInit() {
     verticalswiping: true,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          vertical: true,
+          autoplay: true,
+          arrows: false,
+          dots: false,
+        },
+      },
+    ],
   });
 }
 //*********FOR HAMBURGER MENU
@@ -79,6 +92,17 @@ function navInit() {
   $('.mobile-nav-toggle').click(function () {
     $('body').toggleClass('open-nav');
     $('.mobile-nav-toggle').toggleClass('openToggle');
+  });
+
+  $('.has-sub-menu > a').click(function (e) {
+    e.preventDefault();
+    if ($(this).parents('li').hasClass('open')) {
+      $('.has-sub-menu').removeClass('open');
+      $(this).parents('li').removeClass('open');
+    } else {
+      $('.has-sub-menu').removeClass('open');
+      $(this).parents('li').addClass('open');
+    }
   });
 
   var scrollTop = 0;
