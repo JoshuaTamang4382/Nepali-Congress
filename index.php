@@ -19,7 +19,7 @@ include('header.php') ?>
             <div class="section-content">
                 <div class="national-people-wrapper">
                     <div class="nation-people-item">
-                        <div class="inner">
+                        <div class="inner"> 
                             <div class="image-container flag">
                                 <img src="img/logo/flag-nepal.gif" alt="">
                             </div>

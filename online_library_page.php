@@ -30,7 +30,6 @@
                             <div class="book-post-sub-item">
                                 <div class="content">
                                     <div class="text-container">
-
                                         <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
                                         <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
                                         <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
