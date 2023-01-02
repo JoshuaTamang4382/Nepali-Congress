@@ -237,15 +237,68 @@
             <div class="navigation">
 
                 <ul class="menu-wrapper">
-                    <li><a href="parichaya_page.php"> हाम्रो बारेमा </a></li>
-                    <li><a href="subdomain_page.php"> सबडोमेन </a></li>
-                    <li><a href="online_library_page.php"> अनलाइन लाइब्रेरी </a></li>
-                    <li><a href="bidhan_page.php"> बिधान | नियमावली </a></li>
-                    <li><a href="dastabej_page.php"> दस्ताबेज </a></li>
-                    <li><a href="paripatra_page.php"> परिपत्र </a></li>
-                    <li><a href="active_member.php"> कृयासिल सदस्यता </a></li>
-                    <li><a href="#"> सामाजिक संजाल </a></li>
-                    <li><a href="#"> केन्द्रिय निर्वाचन समिति </a></li>
+                    <li class="has-sub-menu">
+                        <a href="">&#x2022; हाम्रो बारेमा
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="parichaya_page.php"> परिचय </a></li>
+                            <li><a href="karya_samati_page.php"> केन्द्रीय कार्य समिति </a></li>
+                            <li><a href="central_office_page.php"> केन्द्रिय कार्यालय </a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="subdomain_page.php">&#x2022; सबडोमेन </a></li>
+
+                    <li><a href="online_library_page.php">&#x2022; अनलाइन लाइब्रेरी </a></li>
+
+                    <li class="has-sub-menu">
+                        <a href="">&#x2022; बिधान | नियमावली
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="bidhan_page.php"> नेपालको संबिधान </a></li>
+                            <li><a href="niyamawali_page.php"> नियमावली </a></li>
+                            <li><a href="party-bidhan_page.php"> पार्टी विधान </a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="dastabej_page.php">&#x2022; दस्ताबेज </a></li>
+
+                    <li><a href="paripatra_page.php">&#x2022; परिपत्र </a></li>
+
+                    <li><a href="active_member.php">&#x2022; कृयासिल सदस्यता </a></li>
+
+                    <li class="has-sub-menu">
+                        <a href="">&#x2022; केन्द्रिय निर्वाचन समिति
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="matparinam_page.php"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
+                            <li><a href="mahadibesan_namelist_page.php"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
+                            <li><a href="suchana_page.php"> सूचनाहरु </a></li>
+                            <li><a href="mahadibesan_firstnamelist_page.php"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
+                            <li><a href="samajik_sanjal_page.php"> मत परिणाम </a></li>
+                            <li><a href="election_directory_page.php"> निर्वाचन निर्देशिका २०७८ </a></li>
+                            <li><a href="nirbachan_adhikrit_page.php"> निर्वाचन अधिकृत लग - इन </a></li>
+                            <li><a href="maadhibesan_Final_namelist_page.php"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="samajik_sanjal_page.php">&#x2022; सामाजिक संजाल </a></li>
+
+                    <li class="has-sub-menu">
+                        <a href="">&#x2022; अरु मेनुहरु
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#"> प्रतिनिसभा / प्रदेश सभस सदस्यहरु</a></li>
+                            <li><a href="#"> प्रदेध सरकारमस पार्टीको‌ तर्फबाट नियुति भएको पदाधिकारीहरुको विवरण </a></li>
+                        </ul>
+                    </li>
+
+
+
                 </ul>
 
             </div>
