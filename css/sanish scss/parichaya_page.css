@@ -1,0 +1,20 @@
+#parichaya-page .introduction-section .common-details .text-container {
+  padding: 30px 40px;
+}
+#parichaya-page .introduction-section .common-details .text-container p {
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+#parichaya-page .introduction-section .common-details .text-container p.green-text {
+  font-weight: 600;
+}
+#parichaya-page .introduction-section .common-details .text-container p.bold-text {
+  font-weight: 700;
+}
+#parichaya-page .introduction-section .common-details .text-container p.bold-text span {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+#parichaya-page .introduction-section .common-details .text-container p:nth-of-type(5) {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=parichaya_page.css.map */

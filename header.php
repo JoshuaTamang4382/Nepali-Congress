@@ -1,6 +1,5 @@
 <!-- 
-    Created by Sushant Gauchan 
-    Sushant.gauchan11@gmail.com    
+    Created by Joshua Tamang,Sanish karki,Shiva Puri   
 -->
 <?php include 'constant.php' ?>
 
@@ -131,7 +130,7 @@
                                             <span class="slider round"></span>
                                         </label>
                                     </li>
-                                    <li><span>नेपा</span></li>
+                                    <li><span>Eng</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -150,16 +149,30 @@
                             <div class="nav-container">
                                 <ul>
                                     <li>
-                                        <a href="#"> हाम्रो बारेमा </a>
+                                        <a href="#"> हाम्रो बारेमा
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-items">
+                                            <li><a href="parichaya_page.php"> परिचय </a></li>
+                                            <li><a href="karya_samati_page.php"> केन्द्रीय कार्य समिति </a></li>
+                                            <li><a href="central_office_page.php"> केन्द्रिय कार्यालय </a></li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        <a href="#"> सबडोमेन </a>
+                                        <a href="subdomain_page.php"> सबडोमेन </a>
                                     </li>
                                     <li>
-                                        <a href="#"> अनलाइन लाइब्रेरी </a>
+                                        <a href="online_library_page.php"> अनलाइन लाइब्रेरी </a>
                                     </li>
                                     <li>
-                                        <a href="#"> बिधान | नियमावली </a>
+                                        <a href="bidhan_page.php"> बिधान | नियमावली
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-items">
+                                            <li><a href="#"> नेपालको संबिधान </a></li>
+                                            <li><a href="#"> नियमावली </a></li>
+                                            <li><a href="#"> पार्टी विधान </a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#"> दस्ताबेज </a>
@@ -168,13 +181,25 @@
                                         <a href="#"> परिपत्र </a>
                                     </li>
                                     <li>
-                                        <a href="#"> कृयासिल सदस्यता </a>
+                                        <a href="active_member.php"> कृयासिल सदस्यता </a>
                                     </li>
                                     <li>
                                         <a href="#"> सामाजिक संजाल </a>
                                     </li>
                                     <li>
-                                        <a href="#"> केन्द्रिय निर्वाचन समिति </a>
+                                        <a href="#"> केन्द्रिय निर्वाचन समिति
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-items">
+                                            <li><a href="#"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
+                                            <li><a href="#"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
+                                            <li><a href="#"> सूचनाहरु </a></li>
+                                            <li><a href="#"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
+                                            <li><a href="#"> मत परिणाम </a></li>
+                                            <li><a href="#"> निर्वाचन निर्देशिका २०७८ </a></li>
+                                            <li><a href="#"> निर्वाचन अधिकृत लग - इन </a></li>
+                                            <li><a href="#"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>
