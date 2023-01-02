@@ -983,19 +983,35 @@
     padding: 25px 30px;
     overflow: hidden;
   }
+  p {
+    font-size: 12px;
+  }
   /*------------------------------------- Site Wide Ends ------------------------------------*/
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
+  #header-wrapper .top-header-section {
+    padding-top: 10px;
+  }
+  #header-wrapper .top-header-section .news-login-lang-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper {
+    width: 100%;
+  }
   #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul {
     display: block;
   }
   #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li:first-of-type {
-    width: 100%;
+    width: 50%;
   }
   #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper > ul > li:last-of-type {
     width: 100%;
   }
+  #header-wrapper .top-header-section .news-login-lang-wrapper .news-wrapper ul {
+    display: flex;
+  }
   #header-wrapper .top-header-section .news-login-lang-wrapper .login-lang-wrapper {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   #header-wrapper .bottom-header-section .logo-nav-wrapper .logo-container a img {
     width: 70%;
@@ -1010,6 +1026,12 @@
   }
   #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item:nth-last-of-type(1) {
     margin-top: 20px;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container img {
+    width: 50%;
+  }
+  #content-wrapper #home-page .national-people-section .national-people-wrapper .nation-people-item .inner .image-container.flag {
+    width: 80px;
   }
   #content-wrapper #home-page .savapati-sandesh-section .image-text-container .text-container {
     padding: 20px 20px;
@@ -1031,6 +1053,124 @@
   #content-wrapper #home-page .social-section .social-wrapper .social-item {
     width: 100%;
   }
+  #content-wrapper #home-page .common-banner-section .banner-slider-profile-wrapper .common-banner-item-wrapper .common-banner-item .image-container {
+    height: 290px;
+  }
+  #content-wrapper #parichaya-page .introduction-section .common-details .text-container {
+    padding: 20px 10px;
+  }
+  #content-wrapper #parichaya-page .introduction-section .common-details .text-container p:nth-of-type(5) {
+    margin-bottom: 15px;
+  }
+  #content-wrapper #parichaya-page .introduction-section .common-details .text-container p.bold-text {
+    margin-bottom: 0;
+  }
+  #content-wrapper #parichaya-page .introduction-section .common-details .text-container p.bold-text span {
+    margin-bottom: 15px;
+  }
+  #content-wrapper #subdomain-page .nav-1-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  #content-wrapper #subdomain-page .nav-1-wrapper .tab-content {
+    width: 100%;
+    margin-block: 20px;
+  }
+  #content-wrapper #subdomain-page .nav-1-wrapper .tab-content .common-gallery-wrapper .common-gallery-item {
+    width: 50%;
+  }
+  #content-wrapper #subdomain-page .nav-1-wrapper nav {
+    width: 100%;
+  }
+  #content-wrapper #subdomain-page .nav-2-wrapper {
+    margin: -10px;
+  }
+  #content-wrapper #subdomain-page .nav-2-wrapper .image-container {
+    padding: 10px;
+    width: 50%;
+  }
+  #content-wrapper #subdomain-page .nav-4-wrapper {
+    margin: 20px -30px;
+  }
+  #content-wrapper #subdomain-page .nav-4-wrapper .country-item {
+    width: 50%;
+    padding: 30px;
+  }
+  #content-wrapper #online-library-page .book-post-wrapper .book-post-item {
+    display: block;
+  }
+  #content-wrapper #online-library-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
+    width: 40%;
+  }
+  #content-wrapper #online-library-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
+    width: 100%;
+  }
+  #content-wrapper #online-library-page .book-post-wrapper .book-post-item .content .button-wrapper ul {
+    justify-content: space-between;
+  }
+  #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item {
+    display: block;
+  }
+  #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
+    width: 40%;
+  }
+  #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
+    width: 100%;
+  }
+  #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .content .button-wrapper ul {
+    justify-content: space-between;
+  }
+  #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item {
+    display: block;
+  }
+  #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
+    width: 40%;
+  }
+  #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
+    width: 100%;
+  }
+  #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .content .button-wrapper ul {
+    justify-content: space-between;
+  }
+  #content-wrapper #active-member-page .active-member-section .active-member-wrapper .active-filter-content .title {
+    margin-bottom: 20px;
+  }
+  #content-wrapper #active-member-page .active-member-section .active-member-wrapper .active-filter-content .select-province-form .form-row .form-group {
+    margin-bottom: 0;
+    padding: 15px 35px;
+  }
+  #content-wrapper #active-member-page .active-member-section .active-member-wrapper .active-filtered-content .heading-content {
+    padding-top: 50px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .text-section .inner {
+    padding-inline: 0;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .text-section .inner h6 {
+    font-size: 13px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner {
+    padding: 30px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group input {
+    font-size: 13px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group .form-action {
+    margin-top: 20px;
+  }
+  #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group select {
+    font-size: 13px;
+  }
+  #content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper {
+    display: block;
+  }
+  #content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper .name-list-item {
+    width: 100%;
+  }
+  #content-wrapper #nirdeshika-page .nirdeshika-section .text-section {
+    margin-bottom: 35px;
+  }
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
   /*--------------------------------- Footer Wrapper Starts ---------------------------------*/
   #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper {
@@ -1039,8 +1179,24 @@
   #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item {
     width: 50%;
   }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item:nth-of-type(1) {
+    width: 60%;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item:nth-of-type(2) {
+    width: 40%;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item:nth-of-type(3) {
+    width: 60%;
+  }
+  #footer-wrapper .top-footer-section .custom-container .top-footer-wrapper .top-footer-item:nth-of-type(4) {
+    width: 40%;
+  }
   #footer-wrapper .bottom-footer-section .custom-container .bottom-footer-wrapper ul {
     display: block;
+    text-align: center;
+  }
+  #footer-wrapper .bottom-footer-section .custom-container .bottom-footer-wrapper ul li p {
+    font-size: 13px;
   }
   /*---------------------------------- Footer Wrapper Ends ----------------------------------*/
   /*----------------------------------- Components Starts -----------------------------------*/
@@ -1057,6 +1213,33 @@
   .common-content-wrapper .common-content-item p {
     font-size: 13px;
     line-height: 28px;
+  }
+  .common-profile-wrapper {
+    flex-wrap: wrap;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs {
+    margin-top: 25px;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs > .nav-link:not(:last-of-type) {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs button {
+    width: 100%;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs > .nav-link.for-margin-top-7 {
+    margin-top: 0px;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs > .nav-link.for-margin-top-8 {
+    margin-top: 0px;
+  }
+  .common-subdomain-wrapper nav.main-nav .nav-tabs.login-nav-links .nav-link {
+    padding: 0 0;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .common-subdomain-wrapper .common-tab-content-inner {
+    padding: 20px 10px;
   }
   /*------------------------------------ Components Ends ------------------------------------*/
   /*-------------------------------------- Modal Starts -------------------------------------*/

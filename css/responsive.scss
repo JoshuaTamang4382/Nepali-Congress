@@ -2025,19 +2025,29 @@
     overflow: hidden;
   }
 
+  p {
+    font-size: 12px;
+  }
+
   /*------------------------------------- Site Wide Ends ------------------------------------*/
 
   /*--------------------------------- Header Wrapper Starts ---------------------------------*/
   #header-wrapper {
     .top-header-section {
+      padding-top: 10px;
+
       .news-login-lang-wrapper {
+        flex-wrap: wrap-reverse;
+
         .news-wrapper {
+          width: 100%;
+
           &>ul {
             display: block;
 
             &>li {
               &:first-of-type {
-                width: 100%;
+                width: 50%;
               }
 
               &:last-of-type {
@@ -2045,10 +2055,15 @@
               }
             }
           }
+
+          ul {
+            display: flex;
+          }
         }
 
         .login-lang-wrapper {
           flex-wrap: wrap;
+          justify-content: space-between;
         }
       }
     }
@@ -2086,6 +2101,18 @@
 
             &:nth-last-of-type(1) {
               margin-top: 20px;
+            }
+
+            .inner {
+              .image-container {
+                img {
+                  width: 50%;
+                }
+              }
+
+              .image-container.flag {
+                width: 80px;
+              }
             }
           }
         }
@@ -2143,8 +2170,255 @@
           }
         }
       }
+
+      .common-banner-section {
+        .banner-slider-profile-wrapper {
+          .common-banner-item-wrapper {
+            .common-banner-item {
+              .image-container {
+                height: 290px;
+              }
+            }
+          }
+        }
+      }
     }
 
+    #parichaya-page {
+      .introduction-section {
+        .common-details {
+          .text-container {
+            padding: 20px 10px;
+
+            p {
+              &:nth-of-type(5) {
+                margin-bottom: 15px;
+              }
+            }
+
+            p.bold-text {
+              margin-bottom: 0;
+
+              span {
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #subdomain-page {
+      .nav-1-wrapper {
+        flex-wrap: wrap-reverse;
+
+        .tab-content {
+          width: 100%;
+          margin-block: 20px;
+
+          .common-gallery-wrapper {
+            .common-gallery-item {
+              width: 50%;
+            }
+          }
+        }
+
+        nav {
+          width: 100%;
+        }
+      }
+
+      .nav-2-wrapper {
+        margin: -10px;
+
+        .image-container {
+          padding: 10px;
+          width: 50%;
+        }
+      }
+
+      .nav-4-wrapper {
+        margin: 20px -30px;
+
+        .country-item {
+          width: 50%;
+          padding: 30px;
+        }
+      }
+    }
+
+    #online-library-page {
+      .book-post-wrapper {
+        .book-post-item {
+          display: block;
+
+          .book-post-sub-item {
+            &:first-of-type {
+              width: 40%;
+            }
+
+            &:last-of-type {
+              width: 100%;
+            }
+          }
+
+          .content {
+            .button-wrapper {
+              ul {
+                justify-content: space-between;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #niyamawali-page {
+      .book-post-wrapper {
+        .book-post-item {
+          display: block;
+
+          .book-post-sub-item {
+            &:first-of-type {
+              width: 40%;
+            }
+
+            &:last-of-type {
+              width: 100%;
+            }
+          }
+
+          .content {
+            .button-wrapper {
+              ul {
+                justify-content: space-between;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #party-bidhan-page {
+      .book-post-wrapper {
+        .book-post-item {
+          display: block;
+
+          .book-post-sub-item {
+            &:first-of-type {
+              width: 40%;
+            }
+
+            &:last-of-type {
+              width: 100%;
+            }
+          }
+
+          .content {
+            .button-wrapper {
+              ul {
+                justify-content: space-between;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #active-member-page {
+      .active-member-section {
+        .active-member-wrapper {
+          .active-filter-content {
+            .title {
+              margin-bottom: 20px;
+            }
+
+            .select-province-form {
+              .form-row {
+                .form-group {
+                  margin-bottom: 0;
+                  padding: 15px 35px;
+                }
+              }
+            }
+          }
+
+          .active-filtered-content {
+            .heading-content {
+              padding-top: 50px;
+            }
+          }
+        }
+      }
+    }
+
+    #samajik_sanjal-page {
+      .samajik_sanjal-section {
+        .text-section {
+          .inner {
+            padding-inline: 0;
+
+            h6 {
+              font-size: 13px;
+            }
+          }
+        }
+
+        .login-section {
+          .common-subdomain-wrapper {
+            .tab-content {
+              .tab-pane {
+                .inner {
+                  padding: 30px;
+
+                  form {
+                    .form-row {
+                      .form-group {
+                        &:not(:last-of-type) {
+                          margin-bottom: 20px;
+                        }
+
+                        input {
+                          font-size: 13px;
+                        }
+
+                        .form-action {
+                          margin-top: 20px;
+                        }
+
+                        select {
+                          font-size: 13px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #mahadibesan_namelist-page {
+      .mahadibesan_namelist-section {
+        .name-list-wrapper {
+          display: block;
+
+          .name-list-item {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    #nirdeshika-page {
+      .nirdeshika-section {
+        .text-section {
+          margin-bottom: 35px;
+        }
+      }
+    }
   }
 
   /*--------------------------------- Content Wrapper Ends ----------------------------------*/
@@ -2158,6 +2432,22 @@
 
           .top-footer-item {
             width: 50%;
+
+            &:nth-of-type(1) {
+              width: 60%;
+            }
+
+            &:nth-of-type(2) {
+              width: 40%;
+            }
+
+            &:nth-of-type(3) {
+              width: 60%;
+            }
+
+            &:nth-of-type(4) {
+              width: 40%;
+            }
           }
         }
       }
@@ -2168,6 +2458,13 @@
         .bottom-footer-wrapper {
           ul {
             display: block;
+            text-align: center;
+
+            li {
+              p {
+                font-size: 13px;
+              }
+            }
           }
         }
       }
@@ -2205,6 +2502,51 @@
         font-size: 13px;
         line-height: 28px;
       }
+    }
+  }
+
+  .common-profile-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .common-subdomain-wrapper {
+    nav.main-nav {
+      .nav-tabs {
+        margin-top: 25px;
+
+        &>.nav-link {
+          &:not(:last-of-type) {
+            margin-right: 0px;
+            margin-bottom: 5px;
+          }
+
+
+        }
+
+        button {
+          width: 100%;
+        }
+
+        &>.nav-link.for-margin-top-7 {
+          margin-top: 0px;
+        }
+
+        &>.nav-link.for-margin-top-8 {
+          margin-top: 0px;
+        }
+      }
+
+      .nav-tabs.login-nav-links {
+        .nav-link {
+          padding: 0 0;
+          font-size: 13px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    .common-tab-content-inner {
+      padding: 20px 10px;
     }
   }
 
