@@ -239,10 +239,12 @@ button {
   border-radius: none;
   font-size: 12px;
   color: #000;
+  background-color: transparent;
 }
 
 .read-more-btn {
   text-align: right;
+  padding: 15px;
 }
 .read-more-btn button {
   color: #238B28;
@@ -252,12 +254,18 @@ button {
   position: absolute;
   content: "";
   height: 2px;
-  width: 100%;
+  width: 0;
   left: 0;
   right: 0;
   bottom: 0;
   display: inline-block;
   background-color: #238B28;
+  transition: all 0.2s ease-in-out;
+}
+.read-more-btn button:hover::after {
+  content: "";
+  width: 100%;
+  transition: all 0.2s ease-in-out;
 }
 
 .green-text {

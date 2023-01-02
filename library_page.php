@@ -1,128 +1,156 @@
-<?php include('header.php') ?>
+<?php
 
-<div id="online-library-page">
-    <section class="common-banner-section small-height">
-        <div class="custom-container">
-            <div class="text-container">
-                <div class="inner">
-                    <h5>कृयासिल सदस्यता</h5>
-                    <p>गृहपृष्ठ कृयासिल सदस्यता</p>
-                </div>
-            </div>
-        </div>
-    </section>
+/**
+ * Created by VsCode.
+ * User: Joshua Tamang, Sanish karki, Shiva Puri.
+ * Date: 12/17/2022
+ * Time: 4:08 PM
+ */
+include('header.php') ?>
 
-    <section class="online-library-section">
+<div id="library-page">
+
+    <section class="library-section">
         <div class="custom-container">
-            <div class="common-content-wrapper">
-                <div class="common-content-item">
-                    <div class="search-title-box">
-                        <input type="text" placeholder="शीर्षकबाट खोजी गर्नुहोस्">
-                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="content-wrapper">
+                <div class="books-section">
+                    <div class="search-field">
+                        <input type="text" name="search" value="" placeholder="शीर्षकबाट खोजी गर्नुहोस्">
+                        <div class="form-action">
+                            <button type="button"><i class="flaticon-search"></i></button>
+                        </div>
                     </div>
-                    <div class="book-post-wrapper">
-                        <div class="book-post-item">
-                            <div class="book-post-sub-item">
-                                <div class="image-container">
-                                    <img src="img/placeholder/ol/ol1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="book-post-sub-item">
-                                <div class="content">
-                                    <div class="text-container">
-
-                                        <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
-                                        <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
-                                        <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
-                                    </div>
-                                    <div class="view-social-container">
-                                        <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span>
-                                                <h6>1195</h6>
-                                            </li>
-                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
-                                                <h6>share on Facebook</h6>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="button-wrapper">
-                                        <ul>
-                                            <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                                            <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="books-listing-item">
+                        <div class="image-section">
+                            <img src="img/books/books_1.png" alt="">
                         </div>
-                        <div class="book-post-item">
-                            <div class="book-post-sub-item">
-                                <div class="image-container">
-                                    <img src="img/placeholder/ol/ol1.png" alt="">
-                                </div>
+                        <div class="info-section">
+                            <div class="content-section">
+                                <h6 class="green-text">बुधबार २४, भाद्र २०७७</h6>
+                                <p>बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</p>
+                                <p>अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</p>
                             </div>
-                            <div class="book-post-sub-item">
-                                <div class="content">
-                                    <div class="text-container">
-
-                                        <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
-                                        <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
-                                        <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
-                                    </div>
-                                    <div class="view-social-container">
-                                        <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span>
-                                                <h6>1195</h6>
-                                            </li>
-                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
-                                                <h6>share on Facebook</h6>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="button-wrapper">
-                                        <ul>
-                                            <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                                            <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
-                                        </ul>
-                                    </div>
+                            <div class="socio-button-section">
+                                <div class="share-content">
+                                    <ul>
+                                        <li>
+                                            <h6>
+                                                <span class="timer-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>1195
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <span class="calendar-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                                    </a></span>share on Facebook
+                                            </h6>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="book-post-item">
-                            <div class="book-post-sub-item">
-                                <div class="image-container">
-                                    <img src="img/placeholder/ol/ol1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="book-post-sub-item">
-                                <div class="content">
-                                    <div class="text-container">
-
-                                        <h6 class="date">बुधबार २४, भाद्र २०७७</h6>
-                                        <h6 class="title">बाराक ओबामाको ‘ड्रिम्स फ्रम माई फादर’</h6>
-                                        <h6 class="description">अमेरिकी पूर्वराष्ट्रपति बाराक ओबामाको पुस्तक ‘ड्रिम्स फ्रम माई फादर’ अध्ययन गर्न चाहनेहरूका लागि यहाँ पिडिएफ लिंक उपलब्ध छ।</h6>
-                                    </div>
-                                    <div class="view-social-container">
-                                        <ul>
-                                            <li><span><i class="fa-solid fa-eye"></i></span>
-                                                <h6>1195</h6>
-                                            </li>
-                                            <li><span><i class="fa fa-share-alt" aria-hidden="true"></i></span>
-                                                <h6>share on Facebook</h6>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="button-wrapper">
-                                        <ul>
-                                            <li><button class="common-btn">अधिक हेर्नुहोस्</button></li>
-                                            <li><button class="common-btn">डाउनलोड गर्नुहोस्</button></li>
-                                        </ul>
-                                    </div>
+                                <div class="banner-btn">
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        अधिक हेर्नुहोस्
+                                    </button>
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        डाउनलोड गर्नुहोस्
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="books-listing-item">
+                        <div class="image-section">
+                            <img src="img/books/books_2.png" alt="">
+                        </div>
+                        <div class="info-section">
+                            <div class="content-section">
+                                <h6 class="green-text">बुधबार २४, भाद्र २०७७</h6>
+                                <p>लक्ष्मीप्रसाद देवकोटाको ‘शाकुन्तल महाकाव्य’</p>
+                                <p>महाकवि लक्ष्मीप्रसाद देवकोटाको ‘शाकुन्तल महाकाव्य’ यहाँ उपलब्ध छ।</p>
+                            </div>
+                            <div class="socio-button-section">
+                                <div class="share-content">
+                                    <ul>
+                                        <li>
+                                            <h6>
+                                                <span class="timer-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>1195
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <span class="calendar-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                                    </a></span>share on Facebook
+                                            </h6>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="banner-btn">
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        अधिक हेर्नुहोस्
+                                    </button>
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        डाउनलोड गर्नुहोस्
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="books-listing-item">
+                        <div class="image-section">
+                            <img src="img/books/books_3.png" alt="">
+                        </div>
+                        <div class="info-section">
+                            <div class="content-section">
+                                <h6 class="green-text">बुधबार २४, भाद्र २०७७</h6>
+                                <p>विश्वेश्वरप्रसाद कोइरालाको ‘श्‍वेतभैरवी’</p>
+                                <p>विश्वेश्वरप्रसाद कोइरालाको ‘श्‍वेतभैरवी’ यहाँहरूका लागि प्रस्तुत छ।</p>
+                            </div>
+                            <div class="socio-button-section">
+                                <div class="share-content">
+                                    <ul>
+                                        <li>
+                                            <h6>
+                                                <span class="timer-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>1195
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <span class="calendar-icon">
+                                                    <a href="#">
+                                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                                    </a></span>share on Facebook
+                                            </h6>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="banner-btn">
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        अधिक हेर्नुहोस्
+                                    </button>
+                                    <button class="common-btn banner-btn" tabindex="0">
+                                        डाउनलोड गर्नुहोस्
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="common-content-item">
+                <div class="posts-section">
                     <div class="common-notice-container">
                         <div class="common-title">
                             <h6 class="common-btn">पोष्टहरू</h6>
@@ -245,6 +273,6 @@
             </div>
         </div>
     </section>
+
 </div>
-
 <?php include('footer.php') ?>

@@ -1,4 +1,4 @@
-<?php include ('header.php') ?>
+<?php include('header.php') ?>
 
 <div id="subdomain-page">
     <section class="common-banner-section small-height">
@@ -14,7 +14,7 @@
 
     <section class="subdomain-section">
         <div class="custom-container">
-            <div class="subdomain-wrapper">
+            <div class="common-subdomain-wrapper">
                 <nav class="main-nav">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1" aria-selected="true">जिल्ला कार्यसमितिहरु</button>
@@ -339,8 +339,8 @@
                                 <div class="country-item">
                                     <button class="common-btn">अष्ट्रेलिया</button>
                                 </div>
-                                
-                                
+
+
                             </div>
                         </div>
                     </div>
@@ -354,4 +354,4 @@
     </section>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include('footer.php') ?>

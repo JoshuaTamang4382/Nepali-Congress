@@ -11,7 +11,9 @@
     <!------------------------ Meta Starts ---------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <title>Nepali Congress</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/congress_tree.png">
+
 
     <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
@@ -175,29 +177,29 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#"> दस्ताबेज </a>
+                                        <a href="dastabej_page.php"> दस्ताबेज </a>
                                     </li>
                                     <li>
-                                        <a href="#"> परिपत्र </a>
+                                        <a href="paripatra_page.php"> परिपत्र </a>
                                     </li>
                                     <li>
                                         <a href="active_member.php"> कृयासिल सदस्यता </a>
                                     </li>
                                     <li>
-                                        <a href="#"> सामाजिक संजाल </a>
+                                        <a href="samajik_sanjal_page.php"> सामाजिक संजाल </a>
                                     </li>
                                     <li>
                                         <a href="#"> केन्द्रिय निर्वाचन समिति
                                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul class="dropdown-items">
-                                            <li><a href="#"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
-                                            <li><a href="#"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
-                                            <li><a href="#"> सूचनाहरु </a></li>
-                                            <li><a href="#"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
-                                            <li><a href="#"> मत परिणाम </a></li>
-                                            <li><a href="#"> निर्वाचन निर्देशिका २०७८ </a></li>
-                                            <li><a href="#"> निर्वाचन अधिकृत लग - इन </a></li>
+                                            <li><a href="matparinam_page.php"> मतपरिणाम—केन्द्रीय कार्यसमिति </a></li>
+                                            <li><a href="mahadibesan_namelist_page.php"> १४ औं महाधिवेशन—२०७८ उम्मेदवारको अन्तिम नामावली </a></li>
+                                            <li><a href="suchana_page.php"> सूचनाहरु </a></li>
+                                            <li><a href="mahadibesan_firstnamelist_page.php"> १४ औं महाधिवेशन २०७८ उम्मेदवारको प्रथम नामावली </a></li>
+                                            <li><a href="samajik_sanjal_page.php"> मत परिणाम </a></li>
+                                            <li><a href="election_directory_page.php"> निर्वाचन निर्देशिका २०७८ </a></li>
+                                            <li><a href="nirbachan_adhikrit_page.php"> निर्वाचन अधिकृत लग - इन </a></li>
                                             <li><a href="#"> महाधिवेशन प्रतिनिधिहरुको आधिकारिक र अन्तिम नामावली </a></li>
                                         </ul>
                                     </li>

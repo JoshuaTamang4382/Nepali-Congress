@@ -18,7 +18,7 @@
                 <h4 class="text-center">नेपालको संबिधान</h4>
             </div>
             <div class="content">
-                <iframe src="img/pdf/ncpages1470590217797-1602608866118.pdf" width="100%" height="500px">
+                <iframe src="img/pdf/ncpages1470590217797-1602608866118.pdf" width="100%" height="900px">
                 </iframe>
             </div>
         </div>

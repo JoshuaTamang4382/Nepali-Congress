@@ -128,7 +128,7 @@
                         <p>© 1999 - <?php echo date("Y"); ?> Nepali Congress. All rights reserved.</p>
                     </li>
                     <li>
-                        <p>designed & maintained by IET Technology</p>
+                        <p>Designed & maintained by IET Technology</p>
                     </li>
                 </ul>
             </div>

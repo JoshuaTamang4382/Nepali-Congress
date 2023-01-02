@@ -17,11 +17,11 @@ $(document).ready(function () {
 /*------------------------------- Functions Starts -------------------------------*/
 function sliderInit() {
   $('.common-banner-section .banner-slider').slick({
-    arrows: true,
+    arrows: false,
     dots: false,
-    autoplay: false,
-    speed: 500,
-    fade: true,
+    autoplay: true,
+    speed: 900,
+    fade: false,
     pauseOnHover: false,
     cssEase: 'linear',
     slidesToShow: 1,
@@ -51,33 +51,17 @@ function sliderInit() {
     ],
   });
 
-  /*    $('.product-gallery-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.product-gallery-nav'
-        });
-    
-        $('.product-gallery-nav').slick({
-            slidesToShow: 5,
-            slidesToScroll: 5,
-            asNavFor: '.product-gallery-slider',
-            dots: false,
-            arrows: false,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-            ]
-        });*/
+  $('.matparinam-slider').slick({
+    arrows: true,
+    dots: false,
+    autoplay: true,
+    pauseOnHover: false,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    speed: 300,
+  });
 }
 //*********FOR HAMBURGER MENU
 function navInit() {

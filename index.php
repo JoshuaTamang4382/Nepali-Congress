@@ -1,89 +1,14 @@
 <?php
 
 /**
- * Created by PhpStorm.
+ * Created by VsCode.
  * User: Joshua Tamang,Sanish karki,Shiva Puri
- * Date: 5/9/2020
+ * Date: 12/17/2022
  * Time: 4:08 PM
  */
 include('header.php') ?>
 
 <div id="home-page">
-
-    <section class="common-banner-section">
-        <div class="custom-container ">
-            <div class="banner-slider-profile-wrapper">
-                <div class="banner-slider">
-                    <div class="common-banner-item-wrapper">
-                        <div class="common-banner-item">
-                            <div class="image-container">
-                                <img src="img/background/banner 1.png">
-                            </div>
-                        </div>
-                        <div class="common-banner-item">
-                            <div class="text-container">
-                                <div class="inner">
-                                    <div class="date-container">
-                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
-                                    </div>
-                                    <div class="title">
-                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र संयुक्त अधिराज्यका प्रधानमन्त्री
-                                            बोरिस जोन्शोन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा</h5>
-                                    </div>
-                                    <div class="content">
-                                        <p> नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र अमेरिकी रास्ट्रपति जो बाइडेन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
-                                    </div>
-                                    <div class="banner-btn">
-                                        <button class="common-btn banner-btn">
-                                            सबै हेर्नुहोस्
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-wrapper">
-                    <div class="title">
-                        <h5>केन्द्रिय कार्य समिति</h5>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>सभापति</h6>
-                                <h6>शेरबहादुर देउवा</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>नेता</h6>
-                                <h6>रामचन्द्र पौडेल</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="common-profile-container">
-                        <div class="inner">
-                            <div class="image-container">
-                                <img src="img/placeholder/images.jpeg" alt="">
-                            </div>
-                            <div class="description">
-                                <h6>उपसभापति</h6>
-                                <h6>पूर्णबहादुर खड्का</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="national-people-section">
         <div class="custom-container">
@@ -163,6 +88,135 @@ include('header.php') ?>
                         <div class="inner">
                             <div class="image-container flag">
                                 <img src="img/logo/congress.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="common-banner-section">
+        <div class="custom-container ">
+            <div class="banner-slider-profile-wrapper">
+                <div class="banner-slider">
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/banner 1.png">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र संयुक्त अधिराज्यका प्रधानमन्त्री
+                                            बोरिस जोन्शोन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p> नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र अमेरिकी रास्ट्रपति जो बाइडेन जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/modi.jpg">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र भारतका प्रधानमन्त्री श्री नरेन्द्र मोदी जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p>नेपाली कांग्रेसका सभापति एवं प्रधानमन्त्री श्री शेरबहादुर देउवा र भारतका प्रधानमन्त्री श्री नरेन्द्र मोदी जलवायु सम्बन्धि सम्मेलन क्रममा संयुक्त अधिराज्य बेलायतमा l </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-banner-item-wrapper">
+                        <div class="common-banner-item">
+                            <div class="image-container">
+                                <img src="img/background/constitution.jpg">
+                            </div>
+                        </div>
+                        <div class="common-banner-item">
+                            <div class="text-container">
+                                <div class="inner">
+                                    <div class="date-container">
+                                        <h6>मंगलबार १६, कार्तिक २०७८</h6>
+                                    </div>
+                                    <div class="title">
+                                        <h5>संविधान जारी गरिरहँदाको गौरवमय क्षण</h5>
+                                    </div>
+                                    <div class="content">
+                                        <p>संविधान जारी गरिरहँदाको गौरवमय क्षण </p>
+                                    </div>
+                                    <div class="banner-btn">
+                                        <button class="common-btn banner-btn">
+                                            सबै हेर्नुहोस्
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-wrapper">
+                    <div class="title">
+                        <h5>केन्द्रिय कार्य समिति</h5>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>सभापति</h6>
+                                <h6>शेरबहादुर देउवा</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>नेता</h6>
+                                <h6>रामचन्द्र पौडेल</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-profile-container">
+                        <div class="inner">
+                            <div class="image-container">
+                                <img src="img/placeholder/images.jpeg" alt="">
+                            </div>
+                            <div class="description">
+                                <h6>उपसभापति</h6>
+                                <h6>पूर्णबहादुर खड्का</h6>
                             </div>
                         </div>
                     </div>
@@ -579,7 +633,7 @@ include('header.php') ?>
                             <h5>Facebook</h5>
                         </div>
                         <div class="content">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnepalicongresshq%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                 </div>
@@ -587,6 +641,10 @@ include('header.php') ?>
                     <div class="inner">
                         <div class="title">
                             <h5>Twitter</h5>
+                        </div>
+                        <div class="content">
+                            <a class="twitter-timeline" data-width="520" data-height="497" data-theme="light" href="https://twitter.com/NepaliCongress?ref_src=twsrc%5Etfw">Tweets by NepaliCongress</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
                 </div>
@@ -596,7 +654,7 @@ include('header.php') ?>
                             <h5>नेपाली कांग्रेसको इतिहास</h5>
                         </div>
                         <div class="content">
-
+                            <iframe width="520" height="500" src="https://www.youtube.com/embed/BjpBBQfKuGw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
