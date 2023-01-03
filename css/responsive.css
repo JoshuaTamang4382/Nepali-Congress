@@ -1037,8 +1037,15 @@
     padding: 20px 20px;
     padding-right: 20px;
   }
+  #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item .common-blog-container .common-blog-item {
+    display: block;
+  }
+  #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item .common-blog-container .common-blog-item .text-container {
+    width: 100%;
+    padding: 10px;
+  }
   #content-wrapper #home-page .press-bigapti-section .press-bigapti-wrapper .press-bigapti-item .common-blog-container .common-blog-item .image-container {
-    width: 50%;
+    width: 100%;
   }
   #content-wrapper #home-page .button-section .button-wrapper ul li button {
     padding: 20px 10px;
@@ -1099,7 +1106,7 @@
     display: block;
   }
   #content-wrapper #online-library-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
-    width: 40%;
+    width: 100%;
   }
   #content-wrapper #online-library-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
     width: 100%;
@@ -1111,7 +1118,7 @@
     display: block;
   }
   #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
-    width: 40%;
+    width: 100%;
   }
   #content-wrapper #niyamawali-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
     width: 100%;
@@ -1123,7 +1130,7 @@
     display: block;
   }
   #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:first-of-type {
-    width: 40%;
+    width: 100%;
   }
   #content-wrapper #party-bidhan-page .book-post-wrapper .book-post-item .book-post-sub-item:last-of-type {
     width: 100%;
@@ -1161,6 +1168,9 @@
   }
   #content-wrapper #samajik_sanjal-page .samajik_sanjal-section .login-section .common-subdomain-wrapper .tab-content .tab-pane .inner form .form-row .form-group select {
     font-size: 13px;
+  }
+  #content-wrapper #matparinam-page .matparinam-section .common-image-wrapper .common-image-item .inner .image-container {
+    width: 100%;
   }
   #content-wrapper #mahadibesan_namelist-page .mahadibesan_namelist-section .name-list-wrapper {
     display: block;

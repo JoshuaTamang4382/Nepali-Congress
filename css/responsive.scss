@@ -2132,8 +2132,15 @@
           .press-bigapti-item {
             .common-blog-container {
               .common-blog-item {
+                display: block;
+
+                .text-container {
+                  width: 100%;
+                  padding: 10px;
+                }
+
                 .image-container {
-                  width: 50%;
+                  width: 100%;
                 }
               }
             }
@@ -2254,7 +2261,7 @@
 
           .book-post-sub-item {
             &:first-of-type {
-              width: 40%;
+              width: 100%;
             }
 
             &:last-of-type {
@@ -2280,7 +2287,7 @@
 
           .book-post-sub-item {
             &:first-of-type {
-              width: 40%;
+              width: 100%;
             }
 
             &:last-of-type {
@@ -2306,7 +2313,7 @@
 
           .book-post-sub-item {
             &:first-of-type {
-              width: 40%;
+              width: 100%;
             }
 
             &:last-of-type {
@@ -2393,6 +2400,20 @@
                     }
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #matparinam-page {
+      .matparinam-section {
+        .common-image-wrapper {
+          .common-image-item {
+            .inner {
+              .image-container {
+                width: 100%;
               }
             }
           }
